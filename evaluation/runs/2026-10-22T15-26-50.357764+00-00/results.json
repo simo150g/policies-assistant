@@ -1,0 +1,1056 @@
+{
+  "run_id": "2026-10-22T15-26-50.357764+00-00",
+  "created_at": "2026-10-22T15:26:50.358388+00:00",
+  "database_sha256": "36fbf2bbedba3b835c58637cc864e993a1006fb4663dda2f167d2934d81b2d8d",
+  "questions_sha256": "9cecb0b796c23fcb065ee290ee014d0ab3d77e4b4e720fae53150848f1b77a41",
+  "method_order": "rotated per question",
+  "records": [
+    {
+      "question_id": "q01",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees may work remotely up to three days per week with manager approval.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-4b99559709",
+            "title": "Remote Work Policy",
+            "quote": "Employees may work remotely up to three days per week with manager approval."
+          }
+        ],
+        "retrieved_ids": [
+          "p-4b99559709"
+        ],
+        "response_ms": 0.92,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.359599+00:00"
+      },
+      "result_sha256": "d815f5e56aa7cbcee4eb1ab6b4678a8dbc94c53c6b62299722a5f25b0646c078"
+    },
+    {
+      "question_id": "q02",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees may work remotely up to three days per week with manager approval.\n\nEmployees may work abroad for up to 30 days with approval.\n\nAll internal job postings are listed on the company portal.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-4b99559709",
+            "title": "Remote Work Policy",
+            "quote": "Employees may work remotely up to three days per week with manager approval."
+          },
+          {
+            "policy_id": "p-56277cb7b2",
+            "title": "Work From Abroad Policy",
+            "quote": "Employees may work abroad for up to 30 days with approval."
+          },
+          {
+            "policy_id": "p-6254a0d44a",
+            "title": "Job Posting Policy",
+            "quote": "All internal job postings are listed on the company portal."
+          }
+        ],
+        "retrieved_ids": [
+          "p-4b99559709",
+          "p-56277cb7b2",
+          "p-6254a0d44a"
+        ],
+        "response_ms": 1.104,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.361023+00:00"
+      },
+      "result_sha256": "1b24e9b771b9e774b65a0e16cbd5cac13d900bc5bb0d0d910f22d49c4ec9ed4f"
+    },
+    {
+      "question_id": "q03",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees must submit receipts for travel expenses within 30 days.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-fbaade08fa",
+            "title": "Travel Reimbursement Policy",
+            "quote": "Employees must submit receipts for travel expenses within 30 days."
+          }
+        ],
+        "retrieved_ids": [
+          "p-fbaade08fa"
+        ],
+        "response_ms": 0.77,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.362231+00:00"
+      },
+      "result_sha256": "dfb9bc37315a8e435c738cfadb69472c67b25fd8f462df6cee1eb8f49198d232"
+    },
+    {
+      "question_id": "q04",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Departments must maintain business continuity plans.\n\nEmployees may work abroad for up to 30 days with approval.\n\nAll IT assets must be tracked and returned upon exit.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-dca5879e71",
+            "title": "Business Continuity Policy",
+            "quote": "Departments must maintain business continuity plans."
+          },
+          {
+            "policy_id": "p-56277cb7b2",
+            "title": "Work From Abroad Policy",
+            "quote": "Employees may work abroad for up to 30 days with approval."
+          },
+          {
+            "policy_id": "p-1a151021c9",
+            "title": "IT Asset Management Policy",
+            "quote": "All IT assets must be tracked and returned upon exit."
+          }
+        ],
+        "retrieved_ids": [
+          "p-dca5879e71",
+          "p-56277cb7b2",
+          "p-1a151021c9"
+        ],
+        "response_ms": 0.888,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.363531+00:00"
+      },
+      "result_sha256": "7420de046c8fb44f8a5f86a1fb8f2f57d51850233900f46ca6bfcbc2b0dc4241"
+    },
+    {
+      "question_id": "q05",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees receive 15 vacation days per year. Unused days may roll over.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-c911244e36",
+            "title": "Vacation Policy",
+            "quote": "Employees receive 15 vacation days per year. Unused days may roll over."
+          }
+        ],
+        "retrieved_ids": [
+          "p-c911244e36"
+        ],
+        "response_ms": 0.699,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.364781+00:00"
+      },
+      "result_sha256": "32da430031a953029f346544115d1bc1511678c8349450d86c5bfb74a0ac53b7"
+    },
+    {
+      "question_id": "q06",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "New hires are subject to a 90-day probation period.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-874e91aa6f",
+            "title": "Probation Period Policy",
+            "quote": "New hires are subject to a 90-day probation period."
+          }
+        ],
+        "retrieved_ids": [
+          "p-874e91aa6f"
+        ],
+        "response_ms": 0.714,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.365922+00:00"
+      },
+      "result_sha256": "7a4ca386a5151d2dd65466ae5d3d60016b2fc1162952341ee3bc63fd99270908"
+    },
+    {
+      "question_id": "q07",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "All expenses over $500 require prior approval from Finance.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-a69b4db3e4",
+            "title": "Expense Approval Policy",
+            "quote": "All expenses over $500 require prior approval from Finance."
+          }
+        ],
+        "retrieved_ids": [
+          "p-a69b4db3e4"
+        ],
+        "response_ms": 0.742,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.367082+00:00"
+      },
+      "result_sha256": "70f9b306d4574ede1103cf750aa4a38e0922ef8f6008ed27169a6ffbe366bb76"
+    },
+    {
+      "question_id": "q08",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "All expenses over $500 require prior approval from Finance.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-a69b4db3e4",
+            "title": "Expense Approval Policy",
+            "quote": "All expenses over $500 require prior approval from Finance."
+          }
+        ],
+        "retrieved_ids": [
+          "p-a69b4db3e4"
+        ],
+        "response_ms": 0.738,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.368443+00:00"
+      },
+      "result_sha256": "96a7c5891aab436ebd5c0e43ff12f3f64e20ae4bfe94c297d283ee9d4e17a58c"
+    },
+    {
+      "question_id": "q09",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Passwords must be changed every 90 days and meet complexity requirements.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-11831de5b6",
+            "title": "Password Policy",
+            "quote": "Passwords must be changed every 90 days and meet complexity requirements."
+          }
+        ],
+        "retrieved_ids": [
+          "p-11831de5b6"
+        ],
+        "response_ms": 0.76,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.370007+00:00"
+      },
+      "result_sha256": "b3550cb354fb49c8b72a23902e691247c16f1f527f2c12ce3176975908243e27"
+    },
+    {
+      "question_id": "q10",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "All internal job postings are listed on the company portal.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-6254a0d44a",
+            "title": "Job Posting Policy",
+            "quote": "All internal job postings are listed on the company portal."
+          }
+        ],
+        "retrieved_ids": [
+          "p-6254a0d44a"
+        ],
+        "response_ms": 0.692,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.371262+00:00"
+      },
+      "result_sha256": "1c2cd51ca955f887b18e555609827675171df215497313aae8590dfe56e18037"
+    },
+    {
+      "question_id": "q11",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees may work abroad for up to 30 days with approval.\n\nEmployees are recognized on their work anniversaries.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-56277cb7b2",
+            "title": "Work From Abroad Policy",
+            "quote": "Employees may work abroad for up to 30 days with approval."
+          },
+          {
+            "policy_id": "p-f796bdc8d2",
+            "title": "Work Anniversary Recognition Policy",
+            "quote": "Employees are recognized on their work anniversaries."
+          }
+        ],
+        "retrieved_ids": [
+          "p-56277cb7b2",
+          "p-f796bdc8d2"
+        ],
+        "response_ms": 0.67,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.372471+00:00"
+      },
+      "result_sha256": "22aee38f415b01b53be06865664546238013644d2774e0ff6a6389a8e4a6199c"
+    },
+    {
+      "question_id": "q12",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees must return company property upon exit.\n\nIT assets must be disposed of securely.\n\nAll IT assets must be tracked and returned upon exit.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-8f90d56510",
+            "title": "Company Property Policy",
+            "quote": "Employees must return company property upon exit."
+          },
+          {
+            "policy_id": "p-3550f46e35",
+            "title": "Asset Disposal Policy",
+            "quote": "IT assets must be disposed of securely."
+          },
+          {
+            "policy_id": "p-1a151021c9",
+            "title": "IT Asset Management Policy",
+            "quote": "All IT assets must be tracked and returned upon exit."
+          }
+        ],
+        "retrieved_ids": [
+          "p-8f90d56510",
+          "p-3550f46e35",
+          "p-1a151021c9"
+        ],
+        "response_ms": 0.646,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.373564+00:00"
+      },
+      "result_sha256": "14569e1cc2333e081dccce87fb0dbb269aefe0d3081a8a36bfbc6bac1f751010"
+    },
+    {
+      "question_id": "q13",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Eligible employees may take up to 12 weeks of paid parental leave.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-af508d5996",
+            "title": "Parental Leave Policy",
+            "quote": "Eligible employees may take up to 12 weeks of paid parental leave."
+          }
+        ],
+        "retrieved_ids": [
+          "p-af508d5996"
+        ],
+        "response_ms": 0.645,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.374855+00:00"
+      },
+      "result_sha256": "b44df568c02315bd5930b552b90b7725b1fdabf75dc1e2a73583562c1e31985b"
+    },
+    {
+      "question_id": "q14",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees accrue sick leave monthly for personal or family illness.\n\nEmployees may take up to 5 days of bereavement leave.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-ee8d456049",
+            "title": "Sick Leave Policy",
+            "quote": "Employees accrue sick leave monthly for personal or family illness."
+          },
+          {
+            "policy_id": "p-76340970b2",
+            "title": "Bereavement Leave Policy",
+            "quote": "Employees may take up to 5 days of bereavement leave."
+          }
+        ],
+        "retrieved_ids": [
+          "p-ee8d456049",
+          "p-76340970b2"
+        ],
+        "response_ms": 0.669,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.376162+00:00"
+      },
+      "result_sha256": "7abd89dbee708c5460c86b679a0b8e35732002f35de8338de0043a18ec54b95e"
+    },
+    {
+      "question_id": "q15",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Remote meetings should use approved video conferencing tools.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-e91ae64290",
+            "title": "Remote Meeting Policy",
+            "quote": "Remote meetings should use approved video conferencing tools."
+          }
+        ],
+        "retrieved_ids": [
+          "p-e91ae64290"
+        ],
+        "response_ms": 0.748,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.377628+00:00"
+      },
+      "result_sha256": "56a72c3486ab4559c4159be8f428d85ae242f82a0d20520bb00f0fa5c82021d1"
+    },
+    {
+      "question_id": "q16",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Passwords must be changed every 90 days and meet complexity requirements.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-11831de5b6",
+            "title": "Password Policy",
+            "quote": "Passwords must be changed every 90 days and meet complexity requirements."
+          }
+        ],
+        "retrieved_ids": [
+          "p-11831de5b6"
+        ],
+        "response_ms": 0.642,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.379008+00:00"
+      },
+      "result_sha256": "9b2148b8fd1055cc345c4ff232d773326264a64811c40cc7f4d1a635fbc254d3"
+    },
+    {
+      "question_id": "q17",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees may work abroad for up to 30 days with approval.\n\nEmployees may request company-issued mobile devices for work.\n\nEmployees may request ergonomic equipment for remote work.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-56277cb7b2",
+            "title": "Work From Abroad Policy",
+            "quote": "Employees may work abroad for up to 30 days with approval."
+          },
+          {
+            "policy_id": "p-b568db28b6",
+            "title": "Mobile Device Policy",
+            "quote": "Employees may request company-issued mobile devices for work."
+          },
+          {
+            "policy_id": "p-e71b1de78a",
+            "title": "Home Office Equipment Policy",
+            "quote": "Employees may request ergonomic equipment for remote work."
+          }
+        ],
+        "retrieved_ids": [
+          "p-56277cb7b2",
+          "p-b568db28b6",
+          "p-e71b1de78a"
+        ],
+        "response_ms": 0.638,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.380505+00:00"
+      },
+      "result_sha256": "e96e3d1485da40ab502ab5f5176db2c7258b65272ae89ce1cdd7c60d516d2f18"
+    },
+    {
+      "question_id": "q18",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Documents must be retained according to legal requirements.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-81ce9bbdc8",
+            "title": "Document Retention Policy",
+            "quote": "Documents must be retained according to legal requirements."
+          }
+        ],
+        "retrieved_ids": [
+          "p-81ce9bbdc8"
+        ],
+        "response_ms": 0.588,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.381799+00:00"
+      },
+      "result_sha256": "1ab5d1e41a1ad1aced3e8d0902b3b85dbbb9c8224bec6c5d9bd7ad3f29dd665d"
+    },
+    {
+      "question_id": "q19",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Passwords must be changed every 90 days and meet complexity requirements.\n\nAccess badges must be worn and not shared.\n\nEmployees may request ergonomic equipment for remote work.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-11831de5b6",
+            "title": "Password Policy",
+            "quote": "Passwords must be changed every 90 days and meet complexity requirements."
+          },
+          {
+            "policy_id": "p-849029d0ba",
+            "title": "Office Access Policy",
+            "quote": "Access badges must be worn and not shared."
+          },
+          {
+            "policy_id": "p-e71b1de78a",
+            "title": "Home Office Equipment Policy",
+            "quote": "Employees may request ergonomic equipment for remote work."
+          }
+        ],
+        "retrieved_ids": [
+          "p-11831de5b6",
+          "p-849029d0ba",
+          "p-e71b1de78a"
+        ],
+        "response_ms": 0.564,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.383212+00:00"
+      },
+      "result_sha256": "660a0684e585b56aafeeb2d2ac4b67dfeeb9d8f97a6a9445c9b4dc8281834f4b"
+    },
+    {
+      "question_id": "q20",
+      "result": {
+        "method": "rules",
+        "status": "not_found",
+        "answer": "No matching policy was found using keyword search.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [],
+        "retrieved_ids": [],
+        "response_ms": 0.568,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.384588+00:00"
+      },
+      "result_sha256": "d9f9d3b1eb242bddac4ecefb26544b885cde46ab2e2e24c33b22e1f8358d1178"
+    },
+    {
+      "question_id": "q21",
+      "result": {
+        "method": "rules",
+        "status": "not_found",
+        "answer": "No matching policy was found using keyword search.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [],
+        "retrieved_ids": [],
+        "response_ms": 0.569,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.385778+00:00"
+      },
+      "result_sha256": "e2ae7f48d7ad0f902a37c4914abbccf4f3103344d673333beffa7092d3e30613"
+    },
+    {
+      "question_id": "q22",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees may be reimbursed for approved external training.\n\nEmployees must get approval before public speaking engagements.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-5bfb0179e2",
+            "title": "Training Reimbursement Policy",
+            "quote": "Employees may be reimbursed for approved external training."
+          },
+          {
+            "policy_id": "p-41737140f7",
+            "title": "Public Speaking Policy",
+            "quote": "Employees must get approval before public speaking engagements."
+          }
+        ],
+        "retrieved_ids": [
+          "p-5bfb0179e2",
+          "p-41737140f7"
+        ],
+        "response_ms": 0.57,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.386934+00:00"
+      },
+      "result_sha256": "89ccfc283bc56b9dabc879976d597a3b28e84c5c7663cddd8c7285783589d38b"
+    },
+    {
+      "question_id": "q23",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees receive 15 vacation days per year. Unused days may roll over.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-c911244e36",
+            "title": "Vacation Policy",
+            "quote": "Employees receive 15 vacation days per year. Unused days may roll over."
+          }
+        ],
+        "retrieved_ids": [
+          "p-c911244e36"
+        ],
+        "response_ms": 0.616,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.388213+00:00"
+      },
+      "result_sha256": "dd6a392683618d45fbe8e5787425aa5194d598c787193dd710d6d2fcbed1dd23"
+    },
+    {
+      "question_id": "q24",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees must submit receipts for travel expenses within 30 days.\n\nPasswords must be changed every 90 days and meet complexity requirements.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-fbaade08fa",
+            "title": "Travel Reimbursement Policy",
+            "quote": "Employees must submit receipts for travel expenses within 30 days."
+          },
+          {
+            "policy_id": "p-11831de5b6",
+            "title": "Password Policy",
+            "quote": "Passwords must be changed every 90 days and meet complexity requirements."
+          }
+        ],
+        "retrieved_ids": [
+          "p-fbaade08fa",
+          "p-11831de5b6"
+        ],
+        "response_ms": 0.631,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.389491+00:00"
+      },
+      "result_sha256": "b604489701cdd008d1511aaa1ea1aa1564eaaf1c5b342f8736dab00f6ecaf7ae"
+    },
+    {
+      "question_id": "q25",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Only approved software may be installed on company devices.\n\nCompany laptops must be used for business purposes only.\n\nEmployees are recognized on their work anniversaries.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-41633a8ae6",
+            "title": "Software Installation Policy",
+            "quote": "Only approved software may be installed on company devices."
+          },
+          {
+            "policy_id": "p-e9deea9368",
+            "title": "Laptop Usage Policy",
+            "quote": "Company laptops must be used for business purposes only."
+          },
+          {
+            "policy_id": "p-f796bdc8d2",
+            "title": "Work Anniversary Recognition Policy",
+            "quote": "Employees are recognized on their work anniversaries."
+          }
+        ],
+        "retrieved_ids": [
+          "p-41633a8ae6",
+          "p-e9deea9368",
+          "p-f796bdc8d2"
+        ],
+        "response_ms": 0.656,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.390827+00:00"
+      },
+      "result_sha256": "6c7032386493b47362f20879eba706c1b74b008c49ec98783cc806a9b912dc63"
+    },
+    {
+      "question_id": "q26",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees must protect customer data and follow privacy regulations.\n\nEmployees may report unethical behavior anonymously.\n\nNew hires must complete onboarding within their first week.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-09d61392e8",
+            "title": "Data Privacy Policy",
+            "quote": "Employees must protect customer data and follow privacy regulations."
+          },
+          {
+            "policy_id": "p-c870307bc7",
+            "title": "Whistleblower Policy",
+            "quote": "Employees may report unethical behavior anonymously."
+          },
+          {
+            "policy_id": "p-66a1d56734",
+            "title": "Onboarding Policy",
+            "quote": "New hires must complete onboarding within their first week."
+          }
+        ],
+        "retrieved_ids": [
+          "p-09d61392e8",
+          "p-c870307bc7",
+          "p-66a1d56734"
+        ],
+        "response_ms": 0.615,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.392141+00:00"
+      },
+      "result_sha256": "cdaa6de0c63c34b851e1a705833899b0bd779c9575b8ef0fcb8ae3e46ece53d3"
+    },
+    {
+      "question_id": "q27",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Press releases must be approved by Marketing and Legal.\n\nContracts must be reviewed by Legal before signing.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-11554db7cf",
+            "title": "Press Release Policy",
+            "quote": "Press releases must be approved by Marketing and Legal."
+          },
+          {
+            "policy_id": "p-3aa320d943",
+            "title": "Contract Review Policy",
+            "quote": "Contracts must be reviewed by Legal before signing."
+          }
+        ],
+        "retrieved_ids": [
+          "p-11554db7cf",
+          "p-3aa320d943"
+        ],
+        "response_ms": 0.595,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.393468+00:00"
+      },
+      "result_sha256": "d228bfa31c08d81a4437aa55ee8ca2d189b488a538407cd0d7b313bfb6654625"
+    },
+    {
+      "question_id": "q28",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees may report unethical behavior anonymously.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-c870307bc7",
+            "title": "Whistleblower Policy",
+            "quote": "Employees may report unethical behavior anonymously."
+          }
+        ],
+        "retrieved_ids": [
+          "p-c870307bc7"
+        ],
+        "response_ms": 0.567,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.394826+00:00"
+      },
+      "result_sha256": "e30d79db26b68c178c3d9133b7fa4932487f47ce021944d6d32840eb489aaa09"
+    },
+    {
+      "question_id": "q29",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees receive 15 vacation days per year. Unused days may roll over.\n\nEmployees may apply for tuition assistance for approved programs.\n\nOnly authorized employees may speak to the media.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-c911244e36",
+            "title": "Vacation Policy",
+            "quote": "Employees receive 15 vacation days per year. Unused days may roll over."
+          },
+          {
+            "policy_id": "p-d0a509a1c8",
+            "title": "Tuition Assistance Policy",
+            "quote": "Employees may apply for tuition assistance for approved programs."
+          },
+          {
+            "policy_id": "p-b8949e094d",
+            "title": "Media Contact Policy",
+            "quote": "Only authorized employees may speak to the media."
+          }
+        ],
+        "retrieved_ids": [
+          "p-c911244e36",
+          "p-d0a509a1c8",
+          "p-b8949e094d"
+        ],
+        "response_ms": 0.577,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.396153+00:00"
+      },
+      "result_sha256": "76c16b8abb85e98a34fc65e5707448b7de6ba120c92fc77216aae29656346c3a"
+    },
+    {
+      "question_id": "q30",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees may take up to 5 days of bereavement leave.\n\nEligible employees may take up to 12 weeks of paid parental leave.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-76340970b2",
+            "title": "Bereavement Leave Policy",
+            "quote": "Employees may take up to 5 days of bereavement leave."
+          },
+          {
+            "policy_id": "p-af508d5996",
+            "title": "Parental Leave Policy",
+            "quote": "Eligible employees may take up to 12 weeks of paid parental leave."
+          }
+        ],
+        "retrieved_ids": [
+          "p-76340970b2",
+          "p-af508d5996"
+        ],
+        "response_ms": 0.591,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:26:50.397544+00:00"
+      },
+      "result_sha256": "b2734dc8044d456c8a37b451e01119d402f4b4fae1d402c1b3aadee08fe8ca52"
+    }
+  ],
+  "index_preparation": null
+}

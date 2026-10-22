@@ -1,0 +1,12 @@
+{
+  "repository_url": "https://github.com/simo150g/policies-assistant",
+  "website_url": null,
+  "slack_workspace_name": null,
+  "slack_channel_name": null,
+  "slack_channel_url": null,
+  "lecturer_invitation_sent_at": null,
+  "lecturer_email": "raz@sdu.dk",
+  "slack_screenshot": null,
+  "student_hours": null,
+  "cost_statement": "No live policy-model API calls have been made. Codex subscription allocation is unavailable."
+}

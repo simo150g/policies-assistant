@@ -1,0 +1,6 @@
+{
+  "display_information": {"name": "Simon Raff Policies", "description": "SDU coursework policy assistant", "background_color": "#153e36"},
+  "features": {"bot_user": {"display_name": "Simon Raff Policies", "always_online": false}},
+  "oauth_config": {"scopes": {"bot": ["app_mentions:read", "chat:write"]}},
+  "settings": {"event_subscriptions": {"bot_events": ["app_mention"]}, "interactivity": {"is_enabled": false}, "org_deploy_enabled": false, "socket_mode_enabled": true, "token_rotation_enabled": false}
+}
