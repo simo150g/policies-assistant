@@ -1,0 +1,10 @@
+{
+  "recorded_successful_generation_tokens": 124660,
+  "successful_results_across_archives": 102,
+  "unique_recorded_failed_attempts": 24,
+  "setup_smoke_test_generation_tokens": 5392,
+  "embedding_tokens": null,
+  "failed_or_interrupted_request_tokens": null,
+  "actual_cost": null,
+  "note": "Successful outputs deduplicated by result hash; separate baseline rules runs consume no generation tokens. Setup smoke test is additional. Billed cost is not inferred from token counts."
+}

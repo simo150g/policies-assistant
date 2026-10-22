@@ -1,0 +1,13 @@
+{
+  "connection_test": {
+    "measured_at": "2026-10-22T15:50:52.703371+00:00",
+    "model": "gemini-3.5-flash-lite",
+    "question": "How many days per week may I work remotely?",
+    "response_ms": 10328.289,
+    "input_tokens": 5295,
+    "output_tokens": 97,
+    "total_tokens": 5392,
+    "result": "Correctly cited Remote Work Policy and preserved manager approval."
+  },
+  "note": "Connection test is separate from benchmark measurements. Billed cost not reported by the API."
+}

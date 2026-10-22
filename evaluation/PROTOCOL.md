@@ -20,3 +20,13 @@ The keyword baseline uses deterministic BM25-style scoring over title (weighted 
 Rules-only extracts receive a deterministic source-integrity check (all returned statements are exact database text); the baseline's zero unsupported additions does not imply it answers the question correctly. Generated answers need a human/substantive review. Reviews identify the exact answer hash, so a review of an older output cannot silently apply to a new run. Failed requests are reported separately and never counted as correct abstentions or zero-token successful answers.
 
 Do not generalize a zero count from 30 questions to a zero population hallucination rate. Before deciding the preferred approach, examine missed policies, wrong synthesis, unsupported details, ambiguous questions and total cost/latency. For this small database, full context is a provisional design preference only.
+
+## Review procedure for the live run
+
+The initial substantive review is performed by Codex against the full supplied database and the fixed expected answers; reviewer identity is shown in each record. This is AI-assisted evaluation, not an independent human assessment. The student should verify the judgements before submission. A response is marked correct when it supplies the requested facts and conditions, or explicitly acknowledges missing information / requests clarification where appropriate. Correct source extracts can answer a direct factual question without synthesis. Irrelevant additional extracts are noted, but do not automatically invalidate an otherwise complete answer unless they substitute for, confuse, or contradict the requested information. Generic boilerplate about limitations does not substitute for identifying a specific missing fact. Policy recall remains a separate measure and can penalize a valid clarification with no citations.
+
+Index preparation time includes deliberate one-second request pacing. The API returned 3,072-dimensional vectors and did not report embedding token usage. The live benchmark uses the saved index unchanged.
+
+## Service interruptions and accelerated completion
+
+Google returned HTTP 503 responses and request timeouts. Earlier successful answers were retained unchanged, with hashes and timestamps, when resuming. Only failed or unattempted pairs were retried; prior failures and interrupted calls remain in attempt history. Initial requests ran sequentially with a 90-second timeout; completion used up to three concurrent workers with shorter waits. Therefore the recorded latencies are descriptive observations under mixed conditions, not a controlled speed ranking. Failure token usage is unknown. Successful-answer rates exclude service errors and must be read alongside coverage.

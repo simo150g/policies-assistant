@@ -80,6 +80,10 @@ class CoreTests(unittest.TestCase):
         with patch.object(provider,'request',return_value=raw):
             answer,usage,version=provider.generate('q',self.policies)
         self.assertIsNone(usage['total_tokens'])
+    def test_socket_timeout_becomes_provider_error(self):
+        provider=Gemini(key='test')
+        with patch('urllib.request.urlopen',side_effect=socket.timeout('test timeout')):
+            with self.assertRaises(ProviderError): provider.request(provider.model,'generateContent',{})
     def test_two_paragraphs(self):
         paragraphs=(ROOT/'COMPARISON.md').read_text().strip().split('\n\n')
         self.assertEqual(len(paragraphs),2)

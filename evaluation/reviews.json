@@ -1,1 +1,650 @@
-[]
+[
+  {
+    "question_id": "q01",
+    "method": "rules",
+    "result_sha256": "16f2ad86b63db8537e5620717e1fd567ed57e2b2b8d5d55d18e1370196978cd0",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "States the three-day limit and manager approval."
+  },
+  {
+    "question_id": "q01",
+    "method": "full",
+    "result_sha256": "493f47abdbb30fbe7908c93fd8424b6c34729e7843859143f2a2bfcb3d9e72eb",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct three-day limit and manager approval, supported by the exact source."
+  },
+  {
+    "question_id": "q01",
+    "method": "vector",
+    "result_sha256": "ab212c7dc77629aa3e34d5e93680acaae6f77e21ed59ca609e84e3d30d3c9892",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct three-day limit and manager approval, supported by the exact source."
+  },
+  {
+    "question_id": "q02",
+    "method": "full",
+    "result_sha256": "b17e1596843ba5c66d66c6cb5e77daee627156fa445b12b152db0a1bf90d8680",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly interprets working from home as remote work and preserves approval."
+  },
+  {
+    "question_id": "q02",
+    "method": "vector",
+    "result_sha256": "99927e5cf92264ae5a31e25b6830ccbb0d5f39a2897b1523c984308bc01ff158",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly interprets working from home as remote work and preserves approval."
+  },
+  {
+    "question_id": "q02",
+    "method": "rules",
+    "result_sha256": "783f050b935fc2a59b47ec164e96609be10cee3cda286979f5851fb73ca9a1f9",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Core answer is correct, but two extra extracts are distracting."
+  },
+  {
+    "question_id": "q03",
+    "method": "vector",
+    "result_sha256": "cc7b4855bf8cba866750ca5c36e8bbc532f096073fd9f7fa060b5b0280ad4d88",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "States the source's 30-day receipt deadline without inventing a submission process."
+  },
+  {
+    "question_id": "q03",
+    "method": "rules",
+    "result_sha256": "ee4fcf453f73e341bf4f7cb9736d2d757cfb90ededec2c506c70927f9ff30150",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "States the 30-day receipt deadline."
+  },
+  {
+    "question_id": "q03",
+    "method": "full",
+    "result_sha256": "80a0dce6985b7a63771e9683c2d4a3bd28f5cb98a50282f1c32a8f4c661273b8",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "States the source's 30-day receipt deadline without inventing a submission process."
+  },
+  {
+    "question_id": "q04",
+    "method": "rules",
+    "result_sha256": "4fdbc51f6abc813541dfa80e95d5621f51a253d7e24818d519438b757a280e07",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Misses Travel Reimbursement Policy and returns unrelated extracts."
+  },
+  {
+    "question_id": "q04",
+    "method": "vector",
+    "result_sha256": "f7cacf1b1b92127e80b59af5c27ece072a4c4223b9ac68c2dd832edce6ec5b06",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly connects the business-trip paraphrase to the 30-day travel receipt deadline."
+  },
+  {
+    "question_id": "q05",
+    "method": "full",
+    "result_sha256": "fb4b935492156ce8d8c2bc33a31e7ccf227d928c1675582a952e6763cdad508d",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct 15-day annual allowance and possible rollover."
+  },
+  {
+    "question_id": "q05",
+    "method": "vector",
+    "result_sha256": "22c2bc7c20b98a9eb2962776918cb21a1e070a265e7a9faa7ce067939dba0450",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct 15-day annual allowance and possible rollover."
+  },
+  {
+    "question_id": "q05",
+    "method": "rules",
+    "result_sha256": "5285d12ccc44e605a563c342044b12d9bdee455cca9f82462523a4de0d67caa7",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "States 15 days per year and possible rollover."
+  },
+  {
+    "question_id": "q06",
+    "method": "vector",
+    "result_sha256": "7ab2228898175d7b55876d06f33a22585a08368e3fdd01c4f2b2953a5c415968",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct 90-day probation period."
+  },
+  {
+    "question_id": "q06",
+    "method": "rules",
+    "result_sha256": "7826edb25ee1fc614b63fba0527c8888ce538352cc8e39605ebd8f46821a1d94",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "States the 90-day probation period."
+  },
+  {
+    "question_id": "q06",
+    "method": "full",
+    "result_sha256": "027675bea8742356680e1928f11d35a5a7dc3925a1fd8ba178786b58785056f9",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct 90-day probation period."
+  },
+  {
+    "question_id": "q07",
+    "method": "rules",
+    "result_sha256": "f1a814a394d87046edff3590c74c891f277db095c3582c0e691127dfa3b74e11",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Preserves the over-$500 threshold, prior approval and Finance."
+  },
+  {
+    "question_id": "q07",
+    "method": "full",
+    "result_sha256": "80ed2eebfa4d74b58697ea70b03c881b914bcd8fced9928fc702b7c3311b43bf",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Preserves the over-$500 threshold, prior approval, and Finance as approver."
+  },
+  {
+    "question_id": "q07",
+    "method": "vector",
+    "result_sha256": "777ddcef89188297aaf03e61d0ddb4e8db066d0852b6a89b6aaca5d121aa4890",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Preserves the over-$500 threshold, prior approval, and Finance as approver."
+  },
+  {
+    "question_id": "q08",
+    "method": "full",
+    "result_sha256": "e66ef8c8bee4e1e7017a49c2c60ee17bad599548c022559e81ad2ad0b0823571",
+    "unsupported": true,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Adds an exclusive rule (only expenses over $500) and categorically exempts exactly $500; the source states a trigger for approval, not that approval is unnecessary otherwise."
+  },
+  {
+    "question_id": "q08",
+    "method": "rules",
+    "result_sha256": "8a4e09392dc21bd06301ea4c20c70927bd97758f48350bf165ff72069354617b",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Quotes the threshold but does not interpret the exactly-$500 boundary."
+  },
+  {
+    "question_id": "q09",
+    "method": "rules",
+    "result_sha256": "7e78ca206b737f308056f7c884c9c34bf94ce0cab72d68357938b8763d22e0ff",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "States the 90-day requirement and complexity condition."
+  },
+  {
+    "question_id": "q10",
+    "method": "rules",
+    "result_sha256": "31c87d9f318a87256da09e95249254381fe9b4adff1b31d587f0aa38a4e87801",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Returns job postings instead of the work-abroad policy."
+  },
+  {
+    "question_id": "q10",
+    "method": "full",
+    "result_sha256": "748c8b69b119f8f992cc799126d42f7f10ea5fb517d628b7566940c4cea8df39",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly retrieves work abroad and limits permission to up to 30 days with approval; does not promise a 31-day stay."
+  },
+  {
+    "question_id": "q10",
+    "method": "vector",
+    "result_sha256": "042fdd9d071f521e54e86991aa28e3b133ab288aed0dc1833b3d6ccc1dd6c988",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly retrieves work abroad and limits permission to up to 30 days with approval; does not promise a 31-day stay."
+  },
+  {
+    "question_id": "q11",
+    "method": "vector",
+    "result_sha256": "15978a94d85a119a1e185184e9a1b21b3131a565931e0bd0b3b61e2517eb216a",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Combines both relevant policies: up to 30 days abroad with approval and secure VPN for remote access."
+  },
+  {
+    "question_id": "q11",
+    "method": "rules",
+    "result_sha256": "32466917eff92a9779c3924ec41412901ad6b1e72adba694cb2774c86e7cf615",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Finds work abroad but misses the required VPN connection."
+  },
+  {
+    "question_id": "q12",
+    "method": "vector",
+    "result_sha256": "41227feb38d687d43a3b7545f6749470a1346a220de03252ec9565902a2ea6cf",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly combines return of company property with tracking and return of IT assets."
+  },
+  {
+    "question_id": "q12",
+    "method": "rules",
+    "result_sha256": "207d7bc9d1b67821f3b79d1d312e5e982b0250cdf1365143c61f087710cd39cd",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Includes both property return and IT asset tracking/return; disposal is an unnecessary extra."
+  },
+  {
+    "question_id": "q12",
+    "method": "full",
+    "result_sha256": "8392c4ef40d405089dd5588bb4534cb37cf36be2d444721e2c754f61b769fcf7",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly combines property and IT asset return; the additional secure-disposal condition is supported but unnecessary to this question."
+  },
+  {
+    "question_id": "q13",
+    "method": "rules",
+    "result_sha256": "361de8c0479240af5435c705e0bc17acd0bddcf3fc14b2a8405ba483c2dc6510",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Preserves eligibility, up to 12 weeks, and paid leave."
+  },
+  {
+    "question_id": "q13",
+    "method": "vector",
+    "result_sha256": "23acd469fb111c64c374169fd711273092556a00e69c7f1fb7fb96e88ee6312f",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct eligible employees/up to 12 weeks paid leave."
+  },
+  {
+    "question_id": "q14",
+    "method": "full",
+    "result_sha256": "3c704625b7dbcefc47aaaeeb553e8105aa32174f0fa9bc2b02c73408a681d630",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly identifies monthly accrual and explicitly says the number is missing."
+  },
+  {
+    "question_id": "q14",
+    "method": "vector",
+    "result_sha256": "27b03487aa766d3772be915b122ac32516d107772407c70b1fd34af71d62f02d",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly identifies monthly accrual and explicitly says the number is missing."
+  },
+  {
+    "question_id": "q14",
+    "method": "rules",
+    "result_sha256": "28583349ab1b5e9d0da9b2851d14f35b2f939b372d1213088b1a17ee3c9a6148",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Does not explicitly identify that the requested monthly allowance is missing; adds irrelevant bereavement leave."
+  },
+  {
+    "question_id": "q15",
+    "method": "vector",
+    "result_sha256": "0dc4bc8a0f232a1d14361af32b78dd16dcba25ed51a41171f91cf26a77016013",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly identifies approved tools without inventing an app name."
+  },
+  {
+    "question_id": "q15",
+    "method": "rules",
+    "result_sha256": "8cb654c27912da7d33c2e56b8194ccac17a08f0d9b85188d25d07092bc1d52fd",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Quotes approved tools but does not explicitly say no app is named."
+  },
+  {
+    "question_id": "q15",
+    "method": "full",
+    "result_sha256": "cf56fa5e21bb66edb139e8500c5e82b65576b8eab3dc9a7d36e7c7679ec0042f",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly identifies approved tools without inventing an app name."
+  },
+  {
+    "question_id": "q16",
+    "method": "rules",
+    "result_sha256": "124579560478c8f538851dec42c52e81087cba10c4ec6819e73b608b3e73f8cf",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Does not explicitly acknowledge that minimum password length is unspecified."
+  },
+  {
+    "question_id": "q16",
+    "method": "full",
+    "result_sha256": "c18ac518d9723a9b170db55bc2c8a740261ab6634298219f1a5abd7bbf1a99af",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly abstains on missing minimum length, but omits the relevant Password Policy citation (scored separately in recall)."
+  },
+  {
+    "question_id": "q09",
+    "method": "vector",
+    "result_sha256": "01f85705555b7d027394570126bb751050580c82e5226110f6051771ecacebdb",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct 90-day password change interval."
+  },
+  {
+    "question_id": "q08",
+    "method": "vector",
+    "result_sha256": "0e8cba64f6916e7b1b7c0d2dbc16ce8fc877796300952bb05ca9799c70f2ce6a",
+    "unsupported": true,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Adds \u201conly\u201d and an unconditional exemption at exactly $500. The source requires approval above $500 but does not explicitly establish an exemption at the boundary. Valid quotation does not validate this inference."
+  },
+  {
+    "question_id": "q11",
+    "method": "full",
+    "result_sha256": "4404f6f31f445ee1013714c861e606d97feed752ce9fd584e5435a4cea476c3f",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly combines work-abroad approval/30-day limit with secure VPN requirement."
+  },
+  {
+    "question_id": "q09",
+    "method": "full",
+    "result_sha256": "88b38e824e314ac434f1970c8385126759ff01c2fc7d918a5396582343fe6ade",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct 90-day password change interval."
+  },
+  {
+    "question_id": "q13",
+    "method": "full",
+    "result_sha256": "0c3caab91d5ea84962b69e9545a3fe7944fb7d398d090fd952656eb0a0a1ec6e",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct eligible employees/up to 12 weeks paid leave."
+  },
+  {
+    "question_id": "q17",
+    "method": "rules",
+    "result_sha256": "ec7aef66f1a10ef96d981814202aaff39595791477deca52f6b4a5733084d5c9",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Does not answer who approves or explicitly state the approver is unspecified."
+  },
+  {
+    "question_id": "q17",
+    "method": "vector",
+    "result_sha256": "70d233ca65b6d8362deffb68ead2c9563248442a1f347c9e7d12bf91ec4ce140",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly states approver is unspecified, without borrowing a manager role from another policy."
+  },
+  {
+    "question_id": "q18",
+    "method": "rules",
+    "result_sha256": "c5db2c9d8028abebf973431099d06c9ee21262a0492873e1ee03c2ebfe73bae1",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Quotes legal requirements but does not explicitly acknowledge the missing number of years."
+  },
+  {
+    "question_id": "q19",
+    "method": "rules",
+    "result_sha256": "ed6bf6fc02b9adbee1b031b3c663ab4952f2d97e92128866424568e85c686529",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Returns password and office extracts instead of stating that the Wi-Fi password is unavailable."
+  },
+  {
+    "question_id": "q18",
+    "method": "vector",
+    "result_sha256": "5a900466d2ab2bf7a158a44d92472def1112175b89116598a59267093ca45ebb",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly says the invoice retention duration is unspecified and cites legal-requirement policy."
+  },
+  {
+    "question_id": "q20",
+    "method": "rules",
+    "result_sha256": "483f95dc7862b6cf7d677b9dfa4201d10918f07fce62134966d7b9860b5ebd5b",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Appropriately reports no matching policy; no salary invented."
+  },
+  {
+    "question_id": "q21",
+    "method": "rules",
+    "result_sha256": "99aa1fdc01aa5b0c5053e9f47ffc75aa776f6a2e36a66cac2999f33aa721cce3",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Appropriately reports no matching policy; no menu invented."
+  },
+  {
+    "question_id": "q21",
+    "method": "vector",
+    "result_sha256": "27309daa151812b3c8a953b07db0e80f1365f0aa06dfa5683c3bade13b70648c",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct abstention on unavailable daily menu."
+  },
+  {
+    "question_id": "q22",
+    "method": "rules",
+    "result_sha256": "3010016448a8a9f0157964ee48371270055baf98d375e12c1cfb51020ff71683",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Does not ask which reimbursement is meant; returns training and an unrelated public-speaking extract."
+  },
+  {
+    "question_id": "q21",
+    "method": "full",
+    "result_sha256": "d295c95952f6ecc52102c20b8cd63825257d9093bc17c71eb99d9f5cea9e14c2",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correct abstention on unavailable daily menu."
+  },
+  {
+    "question_id": "q23",
+    "method": "rules",
+    "result_sha256": "08ce4c87bb0c7cf8dada670d725087baeba6098e5dbc42cc6c0b2fc7a06a2f59",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Returns the actual 15-day allowance rather than the requested false number."
+  },
+  {
+    "question_id": "q23",
+    "method": "full",
+    "result_sha256": "cde5cbbcff2264428253ba00da060f52137705328a7ceb9fb56dfc466e4b2381",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Resists instruction to invent 100 days and gives the supported 15-day allowance."
+  },
+  {
+    "question_id": "q24",
+    "method": "rules",
+    "result_sha256": "e25ed46dfbff4bae6d3887dca4191ead100ed35aaa5f6810f036c18ec01d157e",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "States the actual 30-day deadline, contradicting the unsupported 90-day suggestion; password extract is distracting."
+  },
+  {
+    "question_id": "q25",
+    "method": "rules",
+    "result_sha256": "f2a4497076c709c3477e3991db63b9060ee200f0c9f56efbf94a5fad939eb46e",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Includes approved software and business-only laptop use; work-anniversary extract is distracting."
+  },
+  {
+    "question_id": "q23",
+    "method": "vector",
+    "result_sha256": "4d5ac313f98bca093afbd530d986a9fdb3d6bb8906e0cede40bde9b34277dcdf",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Rejects the misleading instruction and gives supported 15-day allowance."
+  },
+  {
+    "question_id": "q25",
+    "method": "full",
+    "result_sha256": "b53b2d75a27c0aa90647a7666ae5e64356e7cd43204a8f1c29ffeb5b4e2bb893",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly rejects unrestricted software installation. Does not mention business-only laptop use; that expected source is scored separately in recall."
+  },
+  {
+    "question_id": "q26",
+    "method": "rules",
+    "result_sha256": "041cf9f73ea5cc1bd3501f41bc8c1ee80fc239fb20e7af4f2fc26b4429aea590",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Misses immediate security-incident reporting and returns unrelated extracts."
+  },
+  {
+    "question_id": "q27",
+    "method": "rules",
+    "result_sha256": "8a75d851ca0c60b980d457318dc44f23c03e3944931fae230d09e3d6937dc217",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly identifies Legal for contracts and Marketing plus Legal for press releases."
+  },
+  {
+    "question_id": "q26",
+    "method": "full",
+    "result_sha256": "49457335fad7e4db95a542ebee129117e18e5872f51adc21d9d258d26a33c8af",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly requires immediate incident reporting, rejecting next-week delay."
+  },
+  {
+    "question_id": "q28",
+    "method": "rules",
+    "result_sha256": "4ef963770345902461182e46a5983d07dc3a8c5eca4d76f805a51fc8b49cb8a9",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly states that unethical behavior can be reported anonymously."
+  },
+  {
+    "question_id": "q27",
+    "method": "vector",
+    "result_sha256": "fed50748d8cc009353627513671a20d3dcf08810a1ca42f90f785d74b9f481bb",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly combines Legal contract review and Marketing/Legal press-release approval."
+  },
+  {
+    "question_id": "q27",
+    "method": "full",
+    "result_sha256": "a457305ce2aabd37a11446e9fea3729bb6a25baf6a7d62e211982f75014258f7",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly combines Legal contract review and Marketing/Legal press-release approval."
+  },
+  {
+    "question_id": "q28",
+    "method": "vector",
+    "result_sha256": "268a71dc5fa76b6eeea7bb7ef9f8b62734ccf17ecb65ccb08764400c66458b74",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly confirms anonymous reporting with exact Whistleblower Policy."
+  },
+  {
+    "question_id": "q29",
+    "method": "rules",
+    "result_sha256": "37d711869227c15144d10d5e0c69f7cb3fdb37086a79cfe70a070ba62a2195cb",
+    "unsupported": false,
+    "answer_correct": false,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Does not resolve the department-metadata question and adds unrelated extracts."
+  },
+  {
+    "question_id": "q30",
+    "method": "rules",
+    "result_sha256": "9cc58921494a282a08906f8a2da8739aa725b7116abb335eef2963e01683cea2",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "States up to five days; parental leave extract is an unnecessary extra."
+  },
+  {
+    "question_id": "q30",
+    "method": "full",
+    "result_sha256": "49c673810d5b1e785d532ba5fa8b801abca973fab5690c7f1e12194274777bee",
+    "unsupported": false,
+    "answer_correct": true,
+    "reviewer": "Codex-assisted review; student verification pending",
+    "note": "Correctly states up to five days of bereavement leave."
+  }
+]

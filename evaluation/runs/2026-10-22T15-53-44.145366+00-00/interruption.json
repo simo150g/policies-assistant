@@ -1,0 +1,9 @@
+{
+  "question_id": "q04",
+  "method": "full",
+  "status": "network_timeout",
+  "error": "Socket read timed out with a configured 90-second timeout; no completed response received.",
+  "usage": null,
+  "recorded_at": "2026-10-22T15:58:33.219143+00:00",
+  "note": "Recorded from the observed exception. Failed request excluded from successful-answer latency and token statistics; provider-side billing unknown."
+}

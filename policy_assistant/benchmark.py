@@ -3,6 +3,8 @@ import hashlib
 import json
 import statistics
 import time
+from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
+from collections import deque
 from pathlib import Path
 from .core import ROOT, Gemini, ProviderError, build_index, fingerprint, llm_answer, load_policies, rules_answer, utcnow
 METHODS = ('rules','full','vector')
@@ -10,7 +12,7 @@ METHODS = ('rules','full','vector')
 def digest(result):
     return hashlib.sha256(json.dumps(result,sort_keys=True).encode()).hexdigest()
 
-def run(methods, delay=4.0):
+def run(methods, delay=4.0, resume=None, workers=1):
     policies=load_policies()
     questions=json.loads((ROOT/'evaluation/questions.json').read_text())
     run_id=utcnow().replace(':','-')
@@ -27,18 +29,58 @@ def run(methods, delay=4.0):
               'questions_sha256':hashlib.sha256(json.dumps(questions,sort_keys=True).encode()).hexdigest(),
               'method_order':'rotated per question','records':[],
               'index_preparation':{k:v for k,v in index.items() if k not in {'vectors','policy_ids'}} if index else None}
+    if resume:
+        if Path(resume).name != resume:
+            raise ValueError('Use a run ID, not a path.')
+        previous=json.loads((ROOT/'evaluation/runs'/resume/'results.json').read_text())
+        if previous['database_sha256'] != run_data['database_sha256'] or previous['questions_sha256'] != run_data['questions_sha256']:
+            raise ValueError('Cannot resume after changing the database or questions.')
+        if any(x['result'].get('model') not in {None, provider.model if provider else None} for x in previous['records']):
+            raise ValueError('Cannot resume using a different generation model.')
+        run_data['records']=[x for x in previous['records'] if x['result']['status']!='error' and x['result']['method'] in methods]
+        run_data['resumed_from']=resume
+        run_data['attempt_history']=previous.get('attempt_history',[])+[x for x in previous['records'] if x['result']['status']=='error']
+        interruption=ROOT/'evaluation/runs'/resume/'interruption.json'
+        if interruption.exists():
+            run_data['attempt_history'].append(json.loads(interruption.read_text()))
+        run_data['method_order']='rotated per question; previously successful answers retained on resume'
+    completed={(x['question_id'],x['result']['method']) for x in run_data['records']}
+    if not 1 <= workers <= 3:
+        raise ValueError('Use between one and three concurrent requests.')
+    run_data['execution_note']=f'Resumed successful answers retained; new requests use up to {workers} workers. Timings are descriptive, not a controlled speed ranking.'
+    jobs=deque()
     for n,q in enumerate(questions):
         order=list(methods[n%len(methods):])+list(methods[:n%len(methods)])
-        for method in order:
-            print(f"{q['id']} / {method}",flush=True)
-            try:
-                result=rules_answer(q['question'],policies) if method=='rules' else llm_answer(q['question'],policies,method,provider,index)
-                if method!='rules' and delay:
-                    time.sleep(delay)
-            except (ProviderError,ValueError) as e:
-                result={'method':method,'status':'error','error':str(e),'measured_at':utcnow()}
-            run_data['records'].append({'question_id':q['id'],'result':result,'result_sha256':digest(result)})
-            (archive/'results.json').write_text(json.dumps(run_data,indent=2)+'\n')
+        jobs.extend((q,method) for method in order if (q['id'],method) not in completed)
+    def execute(q,method):
+        print(f"{q['id']} / {method}",flush=True)
+        started=time.perf_counter()
+        try:
+            result=rules_answer(q['question'],policies) if method=='rules' else llm_answer(q['question'],policies,method,provider,index)
+        except (ProviderError,ValueError) as e:
+            result={'method':method,'status':'error','error':str(e),'measured_at':utcnow(),'attempt_ms':round((time.perf_counter()-started)*1000,3)}
+        result['execution_workers']=workers
+        if method!='rules' and delay:
+            time.sleep(delay)
+        return {'question_id':q['id'],'result':result,'result_sha256':digest(result)}
+    stop=False
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        pending={}
+        for _ in range(min(workers,len(jobs))):
+            q,method=jobs.popleft();pending[pool.submit(execute,q,method)]=(q,method)
+        while pending:
+            done,_=wait(pending,return_when=FIRST_COMPLETED)
+            for future in done:
+                pending.pop(future)
+                row=future.result();run_data['records'].append(row)
+                (archive/'results.json').write_text(json.dumps(run_data,indent=2)+'\n')
+                result=row['result']
+                if result['status']=='error' and any(code in result.get('error','') for code in ['HTTP 429','HTTP 401','HTTP 403']):
+                    stop=True
+                    print('Account/quota error: finishing in-flight calls and retaining results for resume.',flush=True)
+                if jobs and not stop:
+                    q,method=jobs.popleft();pending[pool.submit(execute,q,method)]=(q,method)
+    (archive/'results.json').write_text(json.dumps(run_data,indent=2)+'\n')
     (ROOT/'evaluation/latest-run.txt').write_text(run_id)
     export(run_data)
     return archive
@@ -67,7 +109,7 @@ def export(run_data=None):
         result['review']=approved.get((row['question_id'],method,row['result_sha256']))
         # Exact source-only extracts cannot introduce new factual policy claims.
         # This is NOT a correctness or relevance judgement.
-        if method=='rules' and result['status']!='error':
+        if method=='rules' and result['status']!='error' and not result['review']:
             result['review']={'unsupported':False,'answer_correct':None,'note':'Source-only template verified against the database. Answer relevance/correctness still requires review.','reviewer':'deterministic source-integrity check'}
         by_question[row['question_id']]['results'][method]=result
     summaries={}
@@ -75,19 +117,22 @@ def export(run_data=None):
         records=[q['results'][method] for q in by_question.values() if method in q['results']]
         ok=[r for r in records if r['status']!='error']
         reviewed=[r for r in ok if r.get('review') and isinstance(r['review'].get('unsupported'),bool)]
+        correctness_reviewed=[r for r in ok if r.get('review') and isinstance(r['review'].get('answer_correct'),bool)]
         recalls=[r['expected_policy_recall'] for r in ok if r.get('expected_policy_recall') is not None]
         totals=[r['usage']['total_tokens'] for r in ok if r.get('usage',{}).get('total_tokens') is not None]
         summaries[method]={'completed':len(ok),'attempted':len(records),'total_questions':len(questions),'errors':len(records)-len(ok),
            'median_ms':statistics.median(r['response_ms'] for r in ok) if ok else None,
            'mean_generation_tokens':statistics.mean(totals) if totals else None,
            'mean_expected_policy_recall':statistics.mean(recalls) if recalls else None,
+           'correct_count':sum(r['review']['answer_correct'] for r in correctness_reviewed),
+           'correctness_reviewed_count':len(correctness_reviewed),
            'unsupported_count':sum(r['review']['unsupported'] for r in reviewed),'reviewed_count':len(reviewed),
            'unsupported_rate':sum(r['review']['unsupported'] for r in reviewed)/len(reviewed) if reviewed else None}
     comparison=(ROOT/'COMPARISON.md').read_text().strip().split('\n\n')
     report={'schema_version':1,'run_id':run_data['run_id'],'created_at':run_data['created_at'],'database_sha256':run_data['database_sha256'],
             'policy_count':len(load_policies()),'summaries':summaries,'questions':list(by_question.values()),
-            'index_preparation':run_data.get('index_preparation'),'comparison_paragraphs':comparison,
-            'comparison_status':'provisional' if any(s['completed']<len(questions) or s['reviewed_count']<len(questions) for s in summaries.values()) else 'review_ready'}
+            'index_preparation':run_data.get('index_preparation'),'resumed_from':run_data.get('resumed_from'),'attempt_history':run_data.get('attempt_history',[]),'execution_note':run_data.get('execution_note','Sequential requests'),'comparison_paragraphs':comparison,
+            'comparison_status':'provisional' if any(s['attempted']<len(questions) or not s['completed'] or s['reviewed_count']<s['completed'] for s in summaries.values()) else 'review_ready'}
     (ROOT/'docs/data/results.json').write_text(json.dumps(report,indent=2)+'\n')
     (ROOT/'docs/data/policies.json').write_text(json.dumps(load_policies(),indent=2)+'\n')
     return report

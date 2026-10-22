@@ -5,6 +5,8 @@ import json
 import math
 import os
 import re
+import socket
+import http.client
 import time
 import urllib.error
 import urllib.request
@@ -116,12 +118,12 @@ class Gemini:
         url = f'https://generativelanguage.googleapis.com/v1beta/models/{model}:{operation}'
         req = urllib.request.Request(url, json.dumps(body).encode(), {'Content-Type':'application/json','x-goog-api-key':self.key})
         try:
-            with urllib.request.urlopen(req, timeout=90) as response:
+            with urllib.request.urlopen(req, timeout=float(os.getenv("GEMINI_TIMEOUT_SECONDS", "90"))) as response:
                 return json.load(response)
         except urllib.error.HTTPError as e:
             # Never include provider body/headers, which could contain secrets.
             raise ProviderError(f'Gemini returned HTTP {e.code}; check model availability, key, quota and account settings.') from None
-        except (urllib.error.URLError, TimeoutError):
+        except (urllib.error.URLError, TimeoutError, socket.timeout, http.client.HTTPException, ConnectionError):
             raise ProviderError('Gemini connection failed or timed out. No answer was generated.') from None
 
     def generate(self, question, policies):

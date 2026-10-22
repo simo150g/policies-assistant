@@ -4,6 +4,8 @@ The code is prepared. Do not submit until `python3 -m policy_assistant check` ha
 
 ## 1. Gemini API access
 
+Completed locally on 22 October 2026: key verified, index built, live benchmark recorded. These instructions are for reproducing setup; do not overwrite the existing `.env`. The next account step is section 3 (Slack).
+
 1. Open https://aistudio.google.com/apikey and sign in. Complete any terms or project-creation steps yourself.
 2. Create a key for coursework. Check available free quota; enabling billing is not required by this project. If no free access is available, stop and choose another permitted provider rather than silently enabling paid usage.
 3. Copy `.env.example` to `.env` and paste the key after `GEMINI_API_KEY=` in that local file. Do not paste it into chat, upload it, or commit it.

@@ -8,6 +8,8 @@ def main():
     sub=parser.add_subparsers(dest='command',required=True)
     ask=sub.add_parser('ask'); ask.add_argument('question'); ask.add_argument('--method',choices=['rules','full','vector'],default='rules')
     bench=sub.add_parser('benchmark'); bench.add_argument('--methods',nargs='+',choices=['rules','full','vector'],default=['rules','full','vector']); bench.add_argument('--delay',type=float,default=4.0)
+    bench.add_argument('--resume',help='Resume an existing run ID without repeating successful answers')
+    bench.add_argument('--workers',type=int,default=1)
     idx=sub.add_parser('index'); idx.add_argument('--delay',type=float,default=1.0)
     srv=sub.add_parser('serve'); srv.add_argument('--port',type=int,default=8765)
     sub.add_parser('export'); sub.add_parser('slack'); sub.add_parser('check')
@@ -18,7 +20,7 @@ def main():
         elif args.command=='index': build_index(load_policies(),Gemini(),ROOT/'local/vector-index.json',args.delay)
         elif args.command=='benchmark':
             from .benchmark import run
-            print(run(args.methods,args.delay))
+            print(run(args.methods,args.delay,args.resume,args.workers))
         elif args.command=='export':
             from .benchmark import export
             export(); print('Website results exported.')

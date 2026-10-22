@@ -1,0 +1,2715 @@
+{
+  "run_id": "2026-10-22T15-58-33.260692+00-00",
+  "created_at": "2026-10-22T15:58:33.318176+00:00",
+  "database_sha256": "36fbf2bbedba3b835c58637cc864e993a1006fb4663dda2f167d2934d81b2d8d",
+  "questions_sha256": "9cecb0b796c23fcb065ee290ee014d0ab3d77e4b4e720fae53150848f1b77a41",
+  "method_order": "rotated per question; previously successful answers retained on resume",
+  "records": [
+    {
+      "question_id": "q01",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees may work remotely up to three days per week with manager approval.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-4b99559709",
+            "title": "Remote Work Policy",
+            "quote": "Employees may work remotely up to three days per week with manager approval."
+          }
+        ],
+        "retrieved_ids": [
+          "p-4b99559709"
+        ],
+        "response_ms": 0.785,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:53:44.204098+00:00"
+      },
+      "result_sha256": "16f2ad86b63db8537e5620717e1fd567ed57e2b2b8d5d55d18e1370196978cd0"
+    },
+    {
+      "question_id": "q01",
+      "result": {
+        "answer": "Employees may work remotely up to three days per week with manager approval.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-4b99559709",
+            "quote": "Employees may work remotely up to three days per week with manager approval.",
+            "title": "Remote Work Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 10288.437,
+        "usage": {
+          "input_tokens": 5295,
+          "output_tokens": 97,
+          "thinking_tokens": 0,
+          "total_tokens": 5392,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T15:53:54.492997+00:00"
+      },
+      "result_sha256": "493f47abdbb30fbe7908c93fd8424b6c34729e7843859143f2a2bfcb3d9e72eb"
+    },
+    {
+      "question_id": "q01",
+      "result": {
+        "answer": "You may work remotely up to three days per week with manager approval.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-4b99559709",
+            "quote": "Employees may work remotely up to three days per week with manager approval.",
+            "title": "Remote Work Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-4b99559709",
+          "p-fa82cd6d28",
+          "p-56277cb7b2",
+          "p-e91ae64290",
+          "p-e71b1de78a"
+        ],
+        "response_ms": 5150.56,
+        "usage": {
+          "input_tokens": 432,
+          "output_tokens": 97,
+          "thinking_tokens": 0,
+          "total_tokens": 529,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T15:54:03.649967+00:00"
+      },
+      "result_sha256": "ab212c7dc77629aa3e34d5e93680acaae6f77e21ed59ca609e84e3d30d3c9892"
+    },
+    {
+      "question_id": "q02",
+      "result": {
+        "answer": "Yes, employees may work remotely up to three days per week with manager approval.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-4b99559709",
+            "quote": "Employees may work remotely up to three days per week with manager approval.",
+            "title": "Remote Work Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 6037.07,
+        "usage": {
+          "input_tokens": 5297,
+          "output_tokens": 98,
+          "thinking_tokens": 0,
+          "total_tokens": 5395,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T15:54:13.696258+00:00"
+      },
+      "result_sha256": "b17e1596843ba5c66d66c6cb5e77daee627156fa445b12b152db0a1bf90d8680"
+    },
+    {
+      "question_id": "q02",
+      "result": {
+        "answer": "Yes, you may work remotely up to three days per week with manager approval.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-4b99559709",
+            "quote": "Employees may work remotely up to three days per week with manager approval.",
+            "title": "Remote Work Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-4b99559709",
+          "p-fa82cd6d28",
+          "p-56277cb7b2",
+          "p-e71b1de78a",
+          "p-50f3300b98"
+        ],
+        "response_ms": 27516.982,
+        "usage": {
+          "input_tokens": 433,
+          "output_tokens": 98,
+          "thinking_tokens": 0,
+          "total_tokens": 531,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T15:54:45.222506+00:00"
+      },
+      "result_sha256": "99927e5cf92264ae5a31e25b6830ccbb0d5f39a2897b1523c984308bc01ff158"
+    },
+    {
+      "question_id": "q02",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees may work remotely up to three days per week with manager approval.\n\nEmployees may work abroad for up to 30 days with approval.\n\nAll internal job postings are listed on the company portal.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-4b99559709",
+            "title": "Remote Work Policy",
+            "quote": "Employees may work remotely up to three days per week with manager approval."
+          },
+          {
+            "policy_id": "p-56277cb7b2",
+            "title": "Work From Abroad Policy",
+            "quote": "Employees may work abroad for up to 30 days with approval."
+          },
+          {
+            "policy_id": "p-6254a0d44a",
+            "title": "Job Posting Policy",
+            "quote": "All internal job postings are listed on the company portal."
+          }
+        ],
+        "retrieved_ids": [
+          "p-4b99559709",
+          "p-56277cb7b2",
+          "p-6254a0d44a"
+        ],
+        "response_ms": 2.353,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:54:49.231423+00:00"
+      },
+      "result_sha256": "783f050b935fc2a59b47ec164e96609be10cee3cda286979f5851fb73ca9a1f9"
+    },
+    {
+      "question_id": "q03",
+      "result": {
+        "answer": "Employees must submit receipts for travel expenses within 30 days.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-fbaade08fa",
+            "quote": "Employees must submit receipts for travel expenses within 30 days.",
+            "title": "Travel Reimbursement Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-fbaade08fa",
+          "p-8da014a7e5",
+          "p-527ae7299b",
+          "p-5bfb0179e2",
+          "p-a69b4db3e4"
+        ],
+        "response_ms": 18378.415,
+        "usage": {
+          "input_tokens": 433,
+          "output_tokens": 90,
+          "thinking_tokens": 0,
+          "total_tokens": 523,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T15:55:07.611175+00:00"
+      },
+      "result_sha256": "cc7b4855bf8cba866750ca5c36e8bbc532f096073fd9f7fa060b5b0280ad4d88"
+    },
+    {
+      "question_id": "q03",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees must submit receipts for travel expenses within 30 days.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-fbaade08fa",
+            "title": "Travel Reimbursement Policy",
+            "quote": "Employees must submit receipts for travel expenses within 30 days."
+          }
+        ],
+        "retrieved_ids": [
+          "p-fbaade08fa"
+        ],
+        "response_ms": 2.0,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:55:11.620111+00:00"
+      },
+      "result_sha256": "ee4fcf453f73e341bf4f7cb9736d2d757cfb90ededec2c506c70927f9ff30150"
+    },
+    {
+      "question_id": "q03",
+      "result": {
+        "answer": "Employees must submit receipts for travel expenses within 30 days.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-fbaade08fa",
+            "quote": "Employees must submit receipts for travel expenses within 30 days.",
+            "title": "Travel Reimbursement Policy"
+          }
+        ],
+        "limitation": "none",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 35306.796,
+        "usage": {
+          "input_tokens": 5294,
+          "output_tokens": 90,
+          "thinking_tokens": 0,
+          "total_tokens": 5384,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T15:55:46.928257+00:00"
+      },
+      "result_sha256": "80a0dce6985b7a63771e9683c2d4a3bd28f5cb98a50282f1c32a8f4c661273b8"
+    },
+    {
+      "question_id": "q04",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Departments must maintain business continuity plans.\n\nEmployees may work abroad for up to 30 days with approval.\n\nAll IT assets must be tracked and returned upon exit.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-dca5879e71",
+            "title": "Business Continuity Policy",
+            "quote": "Departments must maintain business continuity plans."
+          },
+          {
+            "policy_id": "p-56277cb7b2",
+            "title": "Work From Abroad Policy",
+            "quote": "Employees may work abroad for up to 30 days with approval."
+          },
+          {
+            "policy_id": "p-1a151021c9",
+            "title": "IT Asset Management Policy",
+            "quote": "All IT assets must be tracked and returned upon exit."
+          }
+        ],
+        "retrieved_ids": [
+          "p-dca5879e71",
+          "p-56277cb7b2",
+          "p-1a151021c9"
+        ],
+        "response_ms": 1.937,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:55:50.940528+00:00"
+      },
+      "result_sha256": "4fdbc51f6abc813541dfa80e95d5621f51a253d7e24818d519438b757a280e07"
+    },
+    {
+      "question_id": "q04",
+      "result": {
+        "method": "full",
+        "status": "error",
+        "error": "Gemini returned HTTP 503; check model availability, key, quota and account settings.",
+        "measured_at": "2026-10-22T15:58:34.002397+00:00"
+      },
+      "result_sha256": "e70242bed1690714247d40892e80f51e5107c7d604cb1d4ab212b16ab0684bf4"
+    },
+    {
+      "question_id": "q04",
+      "result": {
+        "answer": "You have 30 days to submit receipts for travel expenses.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-fbaade08fa",
+            "quote": "Employees must submit receipts for travel expenses within 30 days.",
+            "title": "Travel Reimbursement Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-fbaade08fa",
+          "p-8da014a7e5",
+          "p-5bfb0179e2",
+          "p-81ce9bbdc8",
+          "p-527ae7299b"
+        ],
+        "response_ms": 44840.239,
+        "usage": {
+          "input_tokens": 434,
+          "output_tokens": 90,
+          "thinking_tokens": 0,
+          "total_tokens": 524,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T15:59:18.846296+00:00"
+      },
+      "result_sha256": "f7cacf1b1b92127e80b59af5c27ece072a4c4223b9ac68c2dd832edce6ec5b06"
+    },
+    {
+      "question_id": "q05",
+      "result": {
+        "answer": "Employees receive 15 vacation days per year, and unused days may roll over.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-c911244e36",
+            "quote": "Employees receive 15 vacation days per year. Unused days may roll over.",
+            "title": "Vacation Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 4582.973,
+        "usage": {
+          "input_tokens": 5292,
+          "output_tokens": 102,
+          "thinking_tokens": 0,
+          "total_tokens": 5394,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T15:59:27.445197+00:00"
+      },
+      "result_sha256": "fb4b935492156ce8d8c2bc33a31e7ccf227d928c1675582a952e6763cdad508d"
+    },
+    {
+      "question_id": "q05",
+      "result": {
+        "answer": "Employees receive 15 vacation days per year, and unused days may roll over.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-c911244e36",
+            "quote": "Employees receive 15 vacation days per year. Unused days may roll over.",
+            "title": "Vacation Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-c911244e36",
+          "p-af508d5996",
+          "p-d7d31a97bc",
+          "p-76340970b2",
+          "p-ee8d456049"
+        ],
+        "response_ms": 4479.121,
+        "usage": {
+          "input_tokens": 441,
+          "output_tokens": 102,
+          "thinking_tokens": 0,
+          "total_tokens": 543,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T15:59:35.939250+00:00"
+      },
+      "result_sha256": "22c2bc7c20b98a9eb2962776918cb21a1e070a265e7a9faa7ce067939dba0450"
+    },
+    {
+      "question_id": "q05",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees receive 15 vacation days per year. Unused days may roll over.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-c911244e36",
+            "title": "Vacation Policy",
+            "quote": "Employees receive 15 vacation days per year. Unused days may roll over."
+          }
+        ],
+        "retrieved_ids": [
+          "p-c911244e36"
+        ],
+        "response_ms": 2.853,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:59:39.956007+00:00"
+      },
+      "result_sha256": "5285d12ccc44e605a563c342044b12d9bdee455cca9f82462523a4de0d67caa7"
+    },
+    {
+      "question_id": "q06",
+      "result": {
+        "answer": "New hires are subject to a 90-day probation period.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-874e91aa6f",
+            "quote": "New hires are subject to a 90-day probation period.",
+            "title": "Probation Period Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-874e91aa6f",
+          "p-66a1d56734",
+          "p-34f0ed4f74",
+          "p-4c0a306105",
+          "p-af508d5996"
+        ],
+        "response_ms": 13236.236,
+        "usage": {
+          "input_tokens": 431,
+          "output_tokens": 95,
+          "thinking_tokens": 0,
+          "total_tokens": 526,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T15:59:53.194573+00:00"
+      },
+      "result_sha256": "7ab2228898175d7b55876d06f33a22585a08368e3fdd01c4f2b2953a5c415968"
+    },
+    {
+      "question_id": "q06",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "New hires are subject to a 90-day probation period.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-874e91aa6f",
+            "title": "Probation Period Policy",
+            "quote": "New hires are subject to a 90-day probation period."
+          }
+        ],
+        "retrieved_ids": [
+          "p-874e91aa6f"
+        ],
+        "response_ms": 12.199,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T15:59:57.219532+00:00"
+      },
+      "result_sha256": "7826edb25ee1fc614b63fba0527c8888ce538352cc8e39605ebd8f46821a1d94"
+    },
+    {
+      "question_id": "q06",
+      "result": {
+        "answer": "New hires are subject to a 90-day probation period.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-874e91aa6f",
+            "quote": "New hires are subject to a 90-day probation period.",
+            "title": "Probation Period Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 9228.913,
+        "usage": {
+          "input_tokens": 5292,
+          "output_tokens": 95,
+          "thinking_tokens": 0,
+          "total_tokens": 5387,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T16:00:06.449999+00:00"
+      },
+      "result_sha256": "027675bea8742356680e1928f11d35a5a7dc3925a1fd8ba178786b58785056f9"
+    },
+    {
+      "question_id": "q07",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "All expenses over $500 require prior approval from Finance.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-a69b4db3e4",
+            "title": "Expense Approval Policy",
+            "quote": "All expenses over $500 require prior approval from Finance."
+          }
+        ],
+        "retrieved_ids": [
+          "p-a69b4db3e4"
+        ],
+        "response_ms": 1.959,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T16:00:10.466093+00:00"
+      },
+      "result_sha256": "f1a814a394d87046edff3590c74c891f277db095c3582c0e691127dfa3b74e11"
+    },
+    {
+      "question_id": "q07",
+      "result": {
+        "answer": "Yes, all expenses over $500 require prior approval from Finance.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-a69b4db3e4",
+            "quote": "All expenses over $500 require prior approval from Finance.",
+            "title": "Expense Approval Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 8259.743,
+        "usage": {
+          "input_tokens": 5295,
+          "output_tokens": 95,
+          "thinking_tokens": 0,
+          "total_tokens": 5390,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T16:00:18.729344+00:00"
+      },
+      "result_sha256": "80ed2eebfa4d74b58697ea70b03c881b914bcd8fced9928fc702b7c3311b43bf"
+    },
+    {
+      "question_id": "q07",
+      "result": {
+        "answer": "Yes, all expenses over $500 require prior approval from Finance.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-a69b4db3e4",
+            "quote": "All expenses over $500 require prior approval from Finance.",
+            "title": "Expense Approval Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-a69b4db3e4",
+          "p-0060616e95",
+          "p-a0b3a1e0d4",
+          "p-696ff25cf9",
+          "p-b72cedc8a6"
+        ],
+        "response_ms": 10348.263,
+        "usage": {
+          "input_tokens": 426,
+          "output_tokens": 95,
+          "thinking_tokens": 0,
+          "total_tokens": 521,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T16:00:33.094294+00:00"
+      },
+      "result_sha256": "777ddcef89188297aaf03e61d0ddb4e8db066d0852b6a89b6aaca5d121aa4890"
+    },
+    {
+      "question_id": "q08",
+      "result": {
+        "answer": "No, an expense of exactly $500 does not require prior approval from Finance because the policy states that only expenses over $500 require such approval.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-a69b4db3e4",
+            "quote": "All expenses over $500 require prior approval from Finance.",
+            "title": "Expense Approval Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 39783.007,
+        "usage": {
+          "input_tokens": 5301,
+          "output_tokens": 113,
+          "thinking_tokens": 0,
+          "total_tokens": 5414,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T16:01:16.892657+00:00"
+      },
+      "result_sha256": "e66ef8c8bee4e1e7017a49c2c60ee17bad599548c022559e81ad2ad0b0823571"
+    },
+    {
+      "question_id": "q08",
+      "result": {
+        "method": "vector",
+        "status": "error",
+        "error": "Gemini connection failed or timed out. No answer was generated.",
+        "measured_at": "2026-10-22T16:02:51.445423+00:00"
+      },
+      "result_sha256": "bf0410a229721eff1950b30646905906bb84e3afbaea676246047e9ae986b5ed"
+    },
+    {
+      "question_id": "q08",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "All expenses over $500 require prior approval from Finance.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-a69b4db3e4",
+            "title": "Expense Approval Policy",
+            "quote": "All expenses over $500 require prior approval from Finance."
+          }
+        ],
+        "retrieved_ids": [
+          "p-a69b4db3e4"
+        ],
+        "response_ms": 1.865,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T16:02:51.451637+00:00"
+      },
+      "result_sha256": "8a4e09392dc21bd06301ea4c20c70927bd97758f48350bf165ff72069354617b"
+    },
+    {
+      "question_id": "q09",
+      "result": {
+        "method": "vector",
+        "status": "error",
+        "error": "Gemini connection failed or timed out. No answer was generated.",
+        "measured_at": "2026-10-22T16:04:22.007537+00:00"
+      },
+      "result_sha256": "1f098e650ff43ea41ec279eb6eb303d8cd88740f2619fa60a26c50110760e7cf"
+    },
+    {
+      "question_id": "q09",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Passwords must be changed every 90 days and meet complexity requirements.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-11831de5b6",
+            "title": "Password Policy",
+            "quote": "Passwords must be changed every 90 days and meet complexity requirements."
+          }
+        ],
+        "retrieved_ids": [
+          "p-11831de5b6"
+        ],
+        "response_ms": 2.292,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T16:04:22.019577+00:00"
+      },
+      "result_sha256": "7e78ca206b737f308056f7c884c9c34bf94ce0cab72d68357938b8763d22e0ff"
+    },
+    {
+      "question_id": "q09",
+      "result": {
+        "method": "full",
+        "status": "error",
+        "error": "Gemini returned HTTP 503; check model availability, key, quota and account settings.",
+        "measured_at": "2026-10-22T16:04:38.626600+00:00"
+      },
+      "result_sha256": "e66952c4f41ec5539293c39f1bb50a81469bff7d3926c77b21314d710aae16c5"
+    },
+    {
+      "question_id": "q10",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "All internal job postings are listed on the company portal.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-6254a0d44a",
+            "title": "Job Posting Policy",
+            "quote": "All internal job postings are listed on the company portal."
+          }
+        ],
+        "retrieved_ids": [
+          "p-6254a0d44a"
+        ],
+        "response_ms": 1.973,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T16:04:38.636799+00:00"
+      },
+      "result_sha256": "31c87d9f318a87256da09e95249254381fe9b4adff1b31d587f0aa38a4e87801"
+    },
+    {
+      "question_id": "q10",
+      "result": {
+        "answer": "Yes, you can work abroad for up to 30 days with approval.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-56277cb7b2",
+            "quote": "Employees may work abroad for up to 30 days with approval.",
+            "title": "Work From Abroad Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 11840.615,
+        "usage": {
+          "input_tokens": 5299,
+          "output_tokens": 97,
+          "thinking_tokens": 0,
+          "total_tokens": 5396,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T16:04:50.480147+00:00"
+      },
+      "result_sha256": "748c8b69b119f8f992cc799126d42f7f10ea5fb517d628b7566940c4cea8df39"
+    },
+    {
+      "question_id": "q10",
+      "result": {
+        "answer": "Yes, you may work abroad for up to 30 days with approval.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-56277cb7b2",
+            "quote": "Employees may work abroad for up to 30 days with approval.",
+            "title": "Work From Abroad Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-56277cb7b2",
+          "p-c911244e36",
+          "p-fa82cd6d28",
+          "p-4b99559709",
+          "p-696ff25cf9"
+        ],
+        "response_ms": 6441.906,
+        "usage": {
+          "input_tokens": 443,
+          "output_tokens": 97,
+          "thinking_tokens": 0,
+          "total_tokens": 540,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T16:05:00.939586+00:00"
+      },
+      "result_sha256": "042fdd9d071f521e54e86991aa28e3b133ab288aed0dc1833b3d6ccc1dd6c988"
+    },
+    {
+      "question_id": "q11",
+      "result": {
+        "method": "full",
+        "status": "error",
+        "error": "Gemini returned HTTP 503; check model availability, key, quota and account settings.",
+        "measured_at": "2026-10-22T16:05:06.850367+00:00"
+      },
+      "result_sha256": "c8a4ad62d0c579c5f19dc2b38a77bb40d5f07b19250dcb29d64b70c118f376ff"
+    },
+    {
+      "question_id": "q11",
+      "result": {
+        "answer": "Yes, employees may work abroad for up to 30 days with approval, and remote access must use secure VPN connections.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-56277cb7b2",
+            "quote": "Employees may work abroad for up to 30 days with approval.",
+            "title": "Work From Abroad Policy"
+          },
+          {
+            "policy_id": "p-86bbda483f",
+            "quote": "Remote access must use secure VPN connections.",
+            "title": "Remote Access Policy"
+          }
+        ],
+        "limitation": "None.",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-56277cb7b2",
+          "p-86bbda483f",
+          "p-e91ae64290",
+          "p-631389de49",
+          "p-b568db28b6"
+        ],
+        "response_ms": 63441.289,
+        "usage": {
+          "input_tokens": 437,
+          "output_tokens": 145,
+          "thinking_tokens": 0,
+          "total_tokens": 582,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T16:06:10.300075+00:00"
+      },
+      "result_sha256": "15978a94d85a119a1e185184e9a1b21b3131a565931e0bd0b3b61e2517eb216a"
+    },
+    {
+      "question_id": "q11",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees may work abroad for up to 30 days with approval.\n\nEmployees are recognized on their work anniversaries.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-56277cb7b2",
+            "title": "Work From Abroad Policy",
+            "quote": "Employees may work abroad for up to 30 days with approval."
+          },
+          {
+            "policy_id": "p-f796bdc8d2",
+            "title": "Work Anniversary Recognition Policy",
+            "quote": "Employees are recognized on their work anniversaries."
+          }
+        ],
+        "retrieved_ids": [
+          "p-56277cb7b2",
+          "p-f796bdc8d2"
+        ],
+        "response_ms": 2.409,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T16:06:14.321037+00:00"
+      },
+      "result_sha256": "32466917eff92a9779c3924ec41412901ad6b1e72adba694cb2774c86e7cf615"
+    },
+    {
+      "question_id": "q12",
+      "result": {
+        "answer": "When leaving the company, you must return company property and all IT assets must be tracked and returned upon exit.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-8f90d56510",
+            "quote": "Employees must return company property upon exit.",
+            "title": "Company Property Policy"
+          },
+          {
+            "policy_id": "p-1a151021c9",
+            "quote": "All IT assets must be tracked and returned upon exit.",
+            "title": "IT Asset Management Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-8f90d56510",
+          "p-1a151021c9",
+          "p-3550f46e35",
+          "p-75e376a625",
+          "p-e9deea9368"
+        ],
+        "response_ms": 33025.825,
+        "usage": {
+          "input_tokens": 429,
+          "output_tokens": 142,
+          "thinking_tokens": 0,
+          "total_tokens": 571,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T16:06:47.350335+00:00"
+      },
+      "result_sha256": "41227feb38d687d43a3b7545f6749470a1346a220de03252ec9565902a2ea6cf"
+    },
+    {
+      "question_id": "q12",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees must return company property upon exit.\n\nIT assets must be disposed of securely.\n\nAll IT assets must be tracked and returned upon exit.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-8f90d56510",
+            "title": "Company Property Policy",
+            "quote": "Employees must return company property upon exit."
+          },
+          {
+            "policy_id": "p-3550f46e35",
+            "title": "Asset Disposal Policy",
+            "quote": "IT assets must be disposed of securely."
+          },
+          {
+            "policy_id": "p-1a151021c9",
+            "title": "IT Asset Management Policy",
+            "quote": "All IT assets must be tracked and returned upon exit."
+          }
+        ],
+        "retrieved_ids": [
+          "p-8f90d56510",
+          "p-3550f46e35",
+          "p-1a151021c9"
+        ],
+        "response_ms": 2.272,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T16:06:51.371963+00:00"
+      },
+      "result_sha256": "207d7bc9d1b67821f3b79d1d312e5e982b0250cdf1365143c61f087710cd39cd"
+    },
+    {
+      "question_id": "q12",
+      "result": {
+        "answer": "When leaving the company, you must return all company property and ensure that all IT assets are tracked and returned upon your exit. Additionally, IT assets must be disposed of securely if applicable.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-8f90d56510",
+            "quote": "Employees must return company property upon exit.",
+            "title": "Company Property Policy"
+          },
+          {
+            "policy_id": "p-1a151021c9",
+            "quote": "All IT assets must be tracked and returned upon exit.",
+            "title": "IT Asset Management Policy"
+          },
+          {
+            "policy_id": "p-3550f46e35",
+            "quote": "IT assets must be disposed of securely.",
+            "title": "Asset Disposal Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 9795.769,
+        "usage": {
+          "input_tokens": 5298,
+          "output_tokens": 198,
+          "thinking_tokens": 0,
+          "total_tokens": 5496,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T16:07:01.171145+00:00"
+      },
+      "result_sha256": "8392c4ef40d405089dd5588bb4534cb37cf36be2d444721e2c754f61b769fcf7"
+    },
+    {
+      "question_id": "q13",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Eligible employees may take up to 12 weeks of paid parental leave.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-af508d5996",
+            "title": "Parental Leave Policy",
+            "quote": "Eligible employees may take up to 12 weeks of paid parental leave."
+          }
+        ],
+        "retrieved_ids": [
+          "p-af508d5996"
+        ],
+        "response_ms": 2.11,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T16:07:05.183072+00:00"
+      },
+      "result_sha256": "361de8c0479240af5435c705e0bc17acd0bddcf3fc14b2a8405ba483c2dc6510"
+    },
+    {
+      "question_id": "q13",
+      "result": {
+        "method": "full",
+        "status": "error",
+        "error": "Gemini returned HTTP 503; check model availability, key, quota and account settings.",
+        "measured_at": "2026-10-22T16:07:46.639201+00:00"
+      },
+      "result_sha256": "cec8b8c1083c59cabc125b96cb46b2677d2385c11fbed02dbf1e5f1b8e2e7a58"
+    },
+    {
+      "question_id": "q13",
+      "result": {
+        "answer": "Eligible employees may take up to 12 weeks of paid parental leave.",
+        "status": "answered",
+        "citations": [
+          {
+            "policy_id": "p-af508d5996",
+            "quote": "Eligible employees may take up to 12 weeks of paid parental leave.",
+            "title": "Parental Leave Policy"
+          }
+        ],
+        "limitation": "None",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-af508d5996",
+          "p-c911244e36",
+          "p-76340970b2",
+          "p-ee8d456049",
+          "p-56277cb7b2"
+        ],
+        "response_ms": 33066.319,
+        "usage": {
+          "input_tokens": 447,
+          "output_tokens": 99,
+          "thinking_tokens": 0,
+          "total_tokens": 546,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T16:08:19.717182+00:00"
+      },
+      "result_sha256": "23acd469fb111c64c374169fd711273092556a00e69c7f1fb7fb96e88ee6312f"
+    },
+    {
+      "question_id": "q14",
+      "result": {
+        "answer": "The supplied policies state that employees accrue sick leave monthly, but the exact number of days earned each month is not specified.",
+        "status": "partial",
+        "citations": [
+          {
+            "policy_id": "p-ee8d456049",
+            "quote": "Employees accrue sick leave monthly for personal or family illness.",
+            "title": "Sick Leave Policy"
+          }
+        ],
+        "limitation": "The policy confirms that sick leave is accrued monthly, but the specific number of days earned per month is not mentioned in the provided records.",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 38559.061,
+        "usage": {
+          "input_tokens": 5297,
+          "output_tokens": 127,
+          "thinking_tokens": 0,
+          "total_tokens": 5424,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T16:09:02.296067+00:00"
+      },
+      "result_sha256": "3c704625b7dbcefc47aaaeeb553e8105aa32174f0fa9bc2b02c73408a681d630"
+    },
+    {
+      "question_id": "q14",
+      "result": {
+        "answer": "The provided policy states that employees accrue sick leave monthly, but the exact number of days earned each month is not specified.",
+        "status": "partial",
+        "citations": [
+          {
+            "policy_id": "p-ee8d456049",
+            "quote": "Employees accrue sick leave monthly for personal or family illness.",
+            "title": "Sick Leave Policy"
+          }
+        ],
+        "limitation": "The policy mentions monthly accrual of sick leave but does not state the specific number of days earned.",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-ee8d456049",
+          "p-c911244e36",
+          "p-76340970b2",
+          "p-af508d5996",
+          "p-56277cb7b2"
+        ],
+        "response_ms": 17509.983,
+        "usage": {
+          "input_tokens": 452,
+          "output_tokens": 120,
+          "thinking_tokens": 0,
+          "total_tokens": 572,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T16:09:23.827870+00:00"
+      },
+      "result_sha256": "27b03487aa766d3772be915b122ac32516d107772407c70b1fd34af71d62f02d"
+    },
+    {
+      "question_id": "q14",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Employees accrue sick leave monthly for personal or family illness.\n\nEmployees may take up to 5 days of bereavement leave.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-ee8d456049",
+            "title": "Sick Leave Policy",
+            "quote": "Employees accrue sick leave monthly for personal or family illness."
+          },
+          {
+            "policy_id": "p-76340970b2",
+            "title": "Bereavement Leave Policy",
+            "quote": "Employees may take up to 5 days of bereavement leave."
+          }
+        ],
+        "retrieved_ids": [
+          "p-ee8d456049",
+          "p-76340970b2"
+        ],
+        "response_ms": 2.383,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T16:09:27.848064+00:00"
+      },
+      "result_sha256": "28583349ab1b5e9d0da9b2851d14f35b2f939b372d1213088b1a17ee3c9a6148"
+    },
+    {
+      "question_id": "q15",
+      "result": {
+        "answer": "The policy states that remote meetings should use approved video conferencing tools, but it does not specify the exact app you must use.",
+        "status": "partial",
+        "citations": [
+          {
+            "policy_id": "p-e91ae64290",
+            "quote": "Remote meetings should use approved video conferencing tools.",
+            "title": "Remote Meeting Policy"
+          }
+        ],
+        "limitation": "The specific name of the video conferencing app is not specified in the supplied policies.",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "vector",
+        "retrieved_ids": [
+          "p-e91ae64290",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-41633a8ae6",
+          "p-86bbda483f"
+        ],
+        "response_ms": 52545.725,
+        "usage": {
+          "input_tokens": 418,
+          "output_tokens": 115,
+          "thinking_tokens": 0,
+          "total_tokens": 533,
+          "embedding_tokens": null
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": "gemini-embedding-001",
+        "measured_at": "2026-10-22T16:10:20.397810+00:00"
+      },
+      "result_sha256": "0dc4bc8a0f232a1d14361af32b78dd16dcba25ed51a41171f91cf26a77016013"
+    },
+    {
+      "question_id": "q15",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Remote meetings should use approved video conferencing tools.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-e91ae64290",
+            "title": "Remote Meeting Policy",
+            "quote": "Remote meetings should use approved video conferencing tools."
+          }
+        ],
+        "retrieved_ids": [
+          "p-e91ae64290"
+        ],
+        "response_ms": 2.332,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T16:10:24.416087+00:00"
+      },
+      "result_sha256": "8cb654c27912da7d33c2e56b8194ccac17a08f0d9b85188d25d07092bc1d52fd"
+    },
+    {
+      "question_id": "q15",
+      "result": {
+        "answer": "Remote meetings should use approved video conferencing tools, but the specific application names are not detailed in the policy.",
+        "status": "partial",
+        "citations": [
+          {
+            "policy_id": "p-e91ae64290",
+            "quote": "Remote meetings should use approved video conferencing tools.",
+            "title": "Remote Meeting Policy"
+          }
+        ],
+        "limitation": "The specific video conferencing app names are not specified in the records.",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 28983.547,
+        "usage": {
+          "input_tokens": 5293,
+          "output_tokens": 108,
+          "thinking_tokens": 0,
+          "total_tokens": 5401,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T16:10:53.403807+00:00"
+      },
+      "result_sha256": "cf56fa5e21bb66edb139e8500c5e82b65576b8eab3dc9a7d36e7c7679ec0042f"
+    },
+    {
+      "question_id": "q16",
+      "result": {
+        "method": "rules",
+        "status": "matches",
+        "answer": "Passwords must be changed every 90 days and meet complexity requirements.",
+        "limitation": "Exact policy extracts from keyword matches; check relevance and conditions. Missing details cannot be inferred.",
+        "citations": [
+          {
+            "policy_id": "p-11831de5b6",
+            "title": "Password Policy",
+            "quote": "Passwords must be changed every 90 days and meet complexity requirements."
+          }
+        ],
+        "retrieved_ids": [
+          "p-11831de5b6"
+        ],
+        "response_ms": 1.818,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "total_tokens": 0,
+          "embedding_tokens": 0
+        },
+        "model": null,
+        "citation_check": "passed",
+        "measured_at": "2026-10-22T16:10:57.418600+00:00"
+      },
+      "result_sha256": "124579560478c8f538851dec42c52e81087cba10c4ec6819e73b608b3e73f8cf"
+    },
+    {
+      "question_id": "q16",
+      "result": {
+        "answer": "The minimum password length is not specified in the provided policies.",
+        "status": "not_found",
+        "citations": [],
+        "limitation": "The supplied policy records do not contain any information regarding the minimum password length.",
+        "citation_check": "passed",
+        "citation_errors": [],
+        "method": "full",
+        "retrieved_ids": [
+          "p-4c0a306105",
+          "p-cba2efcebd",
+          "p-2497de551e",
+          "p-6824fe02f9",
+          "p-7742823f3f",
+          "p-7ea3dc5bf8",
+          "p-41633a8ae6",
+          "p-50f3300b98",
+          "p-09d61392e8",
+          "p-56277cb7b2",
+          "p-138ce934e4",
+          "p-4dfa06fde1",
+          "p-66a1d56734",
+          "p-249b8b744b",
+          "p-527ae7299b",
+          "p-d7d31a97bc",
+          "p-02ffa03a65",
+          "p-3d3ea0f62e",
+          "p-d22a31cddc",
+          "p-1b1ac63200",
+          "p-f139e3ac49",
+          "p-4fafdf73f3",
+          "p-1539b9e59d",
+          "p-4b99559709",
+          "p-b8e4367c23",
+          "p-fcb893c0d0",
+          "p-0061ff709c",
+          "p-b568db28b6",
+          "p-5bfb0179e2",
+          "p-a07d7e7085",
+          "p-cb0561b60b",
+          "p-62ec49905c",
+          "p-b8804c2307",
+          "p-f796bdc8d2",
+          "p-e41160b076",
+          "p-dca5879e71",
+          "p-3f9f7a258a",
+          "p-49a831ec63",
+          "p-1b44f0dbc5",
+          "p-fa73cf7481",
+          "p-28d2462cd8",
+          "p-a0b3a1e0d4",
+          "p-874e91aa6f",
+          "p-5b15771285",
+          "p-41737140f7",
+          "p-670739b2be",
+          "p-86bbda483f",
+          "p-a10067a770",
+          "p-a8ba60559d",
+          "p-3550f46e35",
+          "p-849029d0ba",
+          "p-fb152c9fcf",
+          "p-a74d2b4d43",
+          "p-c222aa4388",
+          "p-5bee6d60d8",
+          "p-efb05fe825",
+          "p-e91ae64290",
+          "p-31f700401d",
+          "p-a69b4db3e4",
+          "p-4d686cc85b",
+          "p-81ce9bbdc8",
+          "p-60f86555a5",
+          "p-b72cedc8a6",
+          "p-fa82cd6d28",
+          "p-ee8d456049",
+          "p-970b63d823",
+          "p-e71b1de78a",
+          "p-e9deea9368",
+          "p-0060616e95",
+          "p-76340970b2",
+          "p-38688d0199",
+          "p-8da014a7e5",
+          "p-9037ea37b0",
+          "p-3aa320d943",
+          "p-af508d5996",
+          "p-34f0ed4f74",
+          "p-d0a509a1c8",
+          "p-631389de49",
+          "p-c870307bc7",
+          "p-75e376a625",
+          "p-9eea1d026b",
+          "p-fcb16288c6",
+          "p-696ff25cf9",
+          "p-b8949e094d",
+          "p-1103c2f8c4",
+          "p-eaeab88f46",
+          "p-bbc4919041",
+          "p-c9db4ad618",
+          "p-92d3e0ea65",
+          "p-9e4a7498ce",
+          "p-1a151021c9",
+          "p-11831de5b6",
+          "p-fbaade08fa",
+          "p-11554db7cf",
+          "p-c911244e36",
+          "p-cc0d3716a0",
+          "p-6254a0d44a",
+          "p-8f90d56510"
+        ],
+        "response_ms": 53400.525,
+        "usage": {
+          "input_tokens": 5292,
+          "output_tokens": 59,
+          "thinking_tokens": 0,
+          "total_tokens": 5351,
+          "embedding_tokens": 0
+        },
+        "model": "gemini-3.5-flash-lite",
+        "model_version": "gemini-3.5-flash-lite",
+        "embedding_model": null,
+        "measured_at": "2026-10-22T16:11:50.824124+00:00"
+      },
+      "result_sha256": "c18ac518d9723a9b170db55bc2c8a740261ab6634298219f1a5abd7bbf1a99af"
+    }
+  ],
+  "index_preparation": {
+    "schema_version": 1,
+    "database_sha256": "36fbf2bbedba3b835c58637cc864e993a1006fb4663dda2f167d2934d81b2d8d",
+    "embedding_model": "gemini-embedding-001",
+    "dimensions": 3072,
+    "created_at": "2026-10-22T15:53:35.177769+00:00",
+    "preparation_ms": 139882.315,
+    "embedding_tokens": null,
+    "token_note": "Provider-reported tokens only; null means not reported."
+  },
+  "resumed_from": "2026-10-22T15-53-44.145366+00-00",
+  "attempt_history": [
+    {
+      "question_id": "q04",
+      "method": "full",
+      "status": "network_timeout",
+      "error": "Socket read timed out with a configured 90-second timeout; no completed response received.",
+      "usage": null,
+      "recorded_at": "2026-10-22T15:58:33.219143+00:00",
+      "note": "Recorded from the observed exception. Failed request excluded from successful-answer latency and token statistics; provider-side billing unknown."
+    }
+  ]
+}

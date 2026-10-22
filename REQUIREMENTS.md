@@ -6,12 +6,12 @@ The original brief is preserved in ASSIGNMENT.md. This checklist is implementati
 |---|---|---|
 | Deployed comparison website | `docs/`, GitHub Pages | Published and verified 22 October 2026 |
 | Rules-based search | `core.py:rules_answer`, 30 recorded benchmark answers | Measured |
-| LLM without vector index | `core.py:llm_answer` full-context mode | Implemented; API run pending |
-| LLM with vector index | Learned policy embeddings, persisted vectors, cosine retrieval, same LLM | Implemented; real index and API run pending |
-| Each answer and relevant policy | Three side-by-side cards with source quotes | Rules measured; LLM pending |
-| Response time and token use | Actual elapsed timers, API usage metadata, separate embedding usage | Rules measured; LLM pending |
-| Tendency to provide unsupported answers | Hash-bound answer reviews and per-method rate | Source-only baseline verified; LLM review pending |
-| Exactly two comparison paragraphs, maximum two tables | `COMPARISON.md`; website interpretation section; one website table | Two paragraphs prepared; conclusion provisional |
+| LLM without vector index | `core.py:llm_answer` full-context mode | 21 successful live answers; 9 service errors disclosed |
+| LLM with vector index | Learned policy embeddings, persisted vectors, cosine retrieval, same LLM | Real 98-policy index; 21 successful live answers; 9 service errors disclosed |
+| Each answer and relevant policy | Three side-by-side cards with source quotes | 72 successful results measured; 18 service errors disclosed |
+| Response time and token use | Actual elapsed timers, API usage metadata, separate embedding usage | 72 successful results measured; 18 service errors disclosed |
+| Tendency to provide unsupported answers | Hash-bound answer reviews and per-method rate | All 72 successful answers reviewed with hashes; student verification pending |
+| Exactly two comparison paragraphs, maximum two tables | `COMPARISON.md`; website interpretation section; one website table | Exactly two evidence-based paragraphs; one website table |
 | Slack bot answers and identifies policy | `slack_bot.py` and app manifest | Implemented; real connection pending |
 | Separate identifiable workspace and channel | Setup names in `SETUP.md` | User setup pending |
 | Invitation to raz@sdu.dk | Record sent invitation and timestamp | Pending |
