@@ -6,7 +6,7 @@ Compares deterministic keyword search, a full-context LLM without a vector index
 
 **Current status: implementation prepared; submission incomplete.** The rules method has real measurements. Live Gemini runs, substantive LLM answer review, Slack workspace/channel, lecturer invitation and a real Slack screenshot still require account setup. The comparison is explicitly provisional. No simulated results are presented as evidence.
 
-- Website: https://simo150g.github.io/policies-assistant/ (deployment status in `submission-status.json`)
+- Website: https://simo150g.github.io/policies-assistant/ (published and verified 22 October 2026)
 - Source: https://github.com/simo150g/policies-assistant
 - Required exactly two-paragraph comparison: [COMPARISON.md](COMPARISON.md)
 - Setup and completion steps: [SETUP.md](SETUP.md)

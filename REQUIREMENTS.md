@@ -4,7 +4,7 @@ The original brief is preserved in ASSIGNMENT.md. This checklist is implementati
 
 | Required outcome | Implementation / evidence | Status |
 |---|---|---|
-| Deployed comparison website | `docs/`, GitHub Pages | Deployment to be verified |
+| Deployed comparison website | `docs/`, GitHub Pages | Published and verified 22 October 2026 |
 | Rules-based search | `core.py:rules_answer`, 30 recorded benchmark answers | Measured |
 | LLM without vector index | `core.py:llm_answer` full-context mode | Implemented; API run pending |
 | LLM with vector index | Learned policy embeddings, persisted vectors, cosine retrieval, same LLM | Implemented; real index and API run pending |
@@ -15,7 +15,7 @@ The original brief is preserved in ASSIGNMENT.md. This checklist is implementati
 | Slack bot answers and identifies policy | `slack_bot.py` and app manifest | Implemented; real connection pending |
 | Separate identifiable workspace and channel | Setup names in `SETUP.md` | User setup pending |
 | Invitation to raz@sdu.dk | Record sent invitation and timestamp | Pending |
-| Website and source-code links | `submission-status.json` | Repository created; website pending |
+| Website and source-code links | `submission-status.json` | Both public links verified |
 | Screenshot of bot call and response in channel | `evidence/slack-demo.png` must be real | Pending |
 
 Course workspace rules additionally require a public GitHub repo and GitHub Pages, correct student commit identity, time/cost records and an AI-use declaration. No paid service or permanent bot hosting is necessary in the design.
