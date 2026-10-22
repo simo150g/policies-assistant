@@ -44,6 +44,6 @@ def start():
         try: text=format_answer(answer_question(question,method))
         except (ProviderError,ValueError,FileNotFoundError): text='The policy service is unavailable or the question is invalid. Please ask the student running this bot to check the local setup.'
         # Plain text prevents generated markup from mentioning users or linking to external URLs.
-        say(text=text,blocks=[{'type':'section','text':{'type':'plain_text','text':text[:2900]}}],thread_ts=thread,unfurl_links=False,unfurl_media=False)
+        say(text=text,blocks=[{'type':'section','text':{'type':'plain_text','text':text[i:i+2900]}} for i in range(0,len(text),2900)],thread_ts=thread,unfurl_links=False,unfurl_media=False)
     print(f'Starting local Slack assistant with {method} method. Only the configured test channel is enabled.',flush=True)
     SocketModeHandler(app,os.environ['SLACK_APP_TOKEN']).start()

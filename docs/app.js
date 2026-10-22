@@ -12,7 +12,7 @@ function card(method,result){
  for(const citation of result.citations||[]){const s=el('div','source');s.append(el('strong','',citation.title),el('blockquote','',citation.quote));b.append(s);}
  if(result.limitation)b.append(el('div','limitation',result.limitation));c.append(b);
  const metrics=el('div','card-metrics');for(const [label,value] of [['Response time',ms(result.response_ms)],['LLM tokens',tokens(result.usage?.total_tokens)]]){const d=el('div');d.append(el('span','',label),el('strong','',value));metrics.append(d);}
- const review=result.review;let reviewText='Unsupported claims: not reviewed';if(review&&typeof review.unsupported==='boolean')reviewText=review.unsupported?'Unsupported claim found':'No unsupported claims found'+(method==='rules'?' · source-only check':' · reviewed');metrics.append(el('div',`review-line ${review?.unsupported?'flagged':''}`,reviewText));
+ const review=result.review;let reviewText='Unsupported claims: not reviewed';if(method==='rules'&&!review)reviewText='Exact source extracts · relevance not reviewed';if(review&&typeof review.unsupported==='boolean')reviewText=review.unsupported?'Unsupported claim found':'No unsupported claims found'+(method==='rules'?' · source-only check':' · reviewed');metrics.append(el('div',`review-line ${review?.unsupported?'flagged':''}`,reviewText));
  if(result.citation_check==='failed')metrics.append(el('div','review-line flagged','Citation check failed — do not rely on this answer.'));
  if(method==='vector')metrics.append(el('div','review-line','Query embedding tokens: '+tokens(result.usage?.embedding_tokens)));
  if(result.model)metrics.append(el('div','review-line','Model: '+(result.model_version||result.model)));

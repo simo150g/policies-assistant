@@ -48,6 +48,10 @@ def export(run_data=None):
         run_id=(ROOT/'evaluation/latest-run.txt').read_text().strip()
         run_data=json.loads((ROOT/'evaluation/runs'/run_id/'results.json').read_text())
     questions=json.loads((ROOT/'evaluation/questions.json').read_text())
+    if run_data['questions_sha256'] != hashlib.sha256(json.dumps(questions,sort_keys=True).encode()).hexdigest():
+        raise ValueError('Questions changed since the run. Restore them or collect a new benchmark.')
+    if run_data['database_sha256'] != fingerprint(load_policies()):
+        raise ValueError('Policy database changed since the run. Collect a new benchmark.')
     review_path=ROOT/'evaluation/reviews.json'
     reviews=json.loads(review_path.read_text()) if review_path.exists() else []
     approved={(r['question_id'],r['method'],r['result_sha256']):r for r in reviews}
